@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d9" for="node" attr.name="in_ring" attr.type="boolean" />
+  <key id="d8" for="node" attr.name="is_aromatic" attr.type="boolean" />
+  <key id="d7" for="node" attr.name="hybridization" attr.type="long" />
+  <key id="d6" for="node" attr.name="num_radical_e" attr.type="long" />
+  <key id="d5" for="node" attr.name="total_valence" attr.type="long" />
+  <key id="d4" for="node" attr.name="implicit_valence" attr.type="long" />
+  <key id="d3" for="node" attr.name="explicit_valence" attr.type="long" />
+  <key id="d2" for="node" attr.name="num_implicit_h" attr.type="long" />
+  <key id="d1" for="node" attr.name="degree" attr.type="long" />
+  <key id="d0" for="node" attr.name="atomic_num" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="0">
+      <data key="d0">13</data>
+      <data key="d1">0</data>
+      <data key="d2">0</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">0</data>
+      <data key="d6">3</data>
+      <data key="d7">3</data>
+      <data key="d8">False</data>
+      <data key="d9">False</data>
+    </node>
+  </graph>
+</graphml>
