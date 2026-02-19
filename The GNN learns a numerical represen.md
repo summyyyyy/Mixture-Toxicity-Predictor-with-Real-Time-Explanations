@@ -1,0 +1,1 @@
+The GNN learns a numerical representation (embedding) that captures chemical properties relevant to toxicity, such as atom types, bond types, aromatic rings, hybridization, and functional groups. This embedding summarizes everything important about the single drug in one vector.
