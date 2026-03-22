@@ -1,0 +1,50 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1
+Drug A: 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol
+Drug B: 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol
+
+Observed pLD50: 2.6722
+Predicted pLD50: 3.1923
+Toxicity level: very highly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 4 (atom 1); aromatic N sp2 degree 2 (atom 17); aromatic C sp2 degree 2 1 H (atom 18)
+
+Drug B important atoms:
+- aromatic N sp2 degree 2 (atom 20); aromatic N sp2 degree 2 (atom 18); C sp3 degree 4 (atom 10)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 17 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+Drug B:
+- Atom 20 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 10 is a highly connected C atom, which may lie in a structurally important region.
+
+3. Key structural fragments
+
+Drug A:
+- C → a general structural fragment; O → an oxygen-rich polar chain or functional group; c → an aromatic hydrophobic ring; c → an aromatic hydrophobic ring; cnc → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+Drug B:
+- C → a general structural fragment; n → a nitrogen-containing aromatic ring (heterocycle, often bioactive); n → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+4. Interaction-level interpretation
+
+The model highlights a general structural fragment in 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol and a general structural fragment in 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
+
+This indicates that toxicity is likely influenced by:
+- specific local structural regions rather than the whole molecule
+- interactions between hydrophobic and polar/reactive features
+- heteroatoms such as nitrogen or oxygen
+- aromatic or ring-based structures
+
+5. Prediction reliability
+
+The prediction differs from the observed value and should be interpreted cautiously.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

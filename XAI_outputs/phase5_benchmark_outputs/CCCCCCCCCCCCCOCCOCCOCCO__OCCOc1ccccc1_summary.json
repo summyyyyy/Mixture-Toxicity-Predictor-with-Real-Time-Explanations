@@ -7,7 +7,7 @@
   "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
   "smiles_b": "OCCOc1ccccc1",
   "true_pLD50": 1.4354965686798096,
-  "pred_pLD50": 1.5258180586967869,
+  "pred_pLD50": 1.5258180380945556,
   "toxicity_level": "mildly toxic",
   "top_atoms_a": [
     "C sp3 degree 2 2 H (atom 21)",

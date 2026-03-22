@@ -1,0 +1,50 @@
+
+--- Chemical Interpretation ---
+
+PairKey: Nc1ccccc1||O=[N+]([O-])c1ccccc1
+Drug A: aniline
+Drug B: nitrobenzene
+
+Observed pLD50: 2.3400
+Predicted pLD50: 2.0404
+Toxicity level: moderately toxic
+
+1. Model focus
+
+Drug A important atoms:
+- N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 3 (atom 1); aromatic C sp2 degree 2 1 H (atom 5)
+
+Drug B important atoms:
+- N sp2 degree 3 charge +1 (atom 1); O sp2 degree 1 charge -1 (atom 2); aromatic C sp2 degree 2 1 H (atom 6)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+Drug B:
+- Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+3. Key structural fragments
+
+Drug A:
+- N → an amine-like or nitrogen-containing region
+
+Drug B:
+- [N+][O-] → an oxygen-rich polar chain or functional group; ccc → an aromatic hydrophobic ring
+
+4. Interaction-level interpretation
+
+The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
+
+This indicates that toxicity is likely influenced by:
+- specific local structural regions rather than the whole molecule
+- interactions between hydrophobic and polar/reactive features
+- heteroatoms such as nitrogen or oxygen
+- aromatic or ring-based structures
+
+5. Prediction reliability
+
+The prediction is reasonably close to the observed value.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
