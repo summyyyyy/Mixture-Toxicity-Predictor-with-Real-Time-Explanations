@@ -1,0 +1,28 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1
+Drug A: 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol
+Drug B: 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol
+
+Observed mixture toxicity (pLD50): 2.6722
+Predicted mixture toxicity (pLD50): 3.1923
+Toxicity level: very highly toxic
+
+Key contributing atoms in Drug A:
+- C sp3 degree 4 (atom 1); aromatic N sp2 degree 2 (atom 17); aromatic C sp2 degree 2 1 H (atom 18)
+
+Key contributing atoms in Drug B:
+- aromatic N sp2 degree 2 (atom 20); aromatic N sp2 degree 2 (atom 18); C sp3 degree 4 (atom 10)
+
+Important structural fragments in Drug A:
+- C (atoms [1]); O (atoms [5]); c (atoms [9]); c (atoms [14]); cnc (atoms [16, 17, 18])
+
+Important structural fragments in Drug B:
+- C (atoms [10]); n (atoms [18]); n (atoms [20])
+
+Interpretation:
+The predicted toxicity appears to be influenced by specific atomic environments and substructures
+within each molecule. The model gives higher importance to a limited set of atoms rather than the
+whole molecule uniformly, suggesting that local structural features play a major role in the
+predicted combined toxicity of the pair.

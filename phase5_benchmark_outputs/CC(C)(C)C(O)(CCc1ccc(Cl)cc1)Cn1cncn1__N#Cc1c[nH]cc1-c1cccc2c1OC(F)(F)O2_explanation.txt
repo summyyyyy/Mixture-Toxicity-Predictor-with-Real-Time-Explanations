@@ -1,0 +1,28 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2
+Drug A: 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol
+Drug B: 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile
+
+Observed mixture toxicity (pLD50): 3.0693
+Predicted mixture toxicity (pLD50): 2.2702
+Toxicity level: moderately toxic
+
+Key contributing atoms in Drug A:
+- aromatic C sp2 degree 2 1 H (atom 14); aromatic C sp2 degree 2 1 H (atom 9); aromatic N sp2 degree 2 (atom 18)
+
+Key contributing atoms in Drug B:
+- ring C sp3 degree 4 (atom 14); aromatic C sp2 degree 2 1 H (atom 3); C sp degree 2 (atom 1)
+
+Important structural fragments in Drug A:
+- c (atoms [9]); c (atoms [14]); n (atoms [18])
+
+Important structural fragments in Drug B:
+- C (atoms [14])
+
+Interpretation:
+The predicted toxicity appears to be influenced by specific atomic environments and substructures
+within each molecule. The model gives higher importance to a limited set of atoms rather than the
+whole molecule uniformly, suggesting that local structural features play a major role in the
+predicted combined toxicity of the pair.

@@ -1,0 +1,28 @@
+
+--- Chemical Interpretation ---
+
+PairKey: C1COCCN1||C=CC#N
+Drug A: morpholine
+Drug B: prop-2-enenitrile
+
+Observed mixture toxicity (pLD50): 2.1302
+Predicted mixture toxicity (pLD50): 2.1963
+Toxicity level: moderately toxic
+
+Key contributing atoms in Drug A:
+- ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 0)
+
+Key contributing atoms in Drug B:
+- C sp degree 2 (atom 2); C sp2 degree 1 2 H (atom 0); C sp2 degree 2 1 H (atom 1)
+
+Important structural fragments in Drug A:
+- N (atoms [5])
+
+Important structural fragments in Drug B:
+- C (atoms [2])
+
+Interpretation:
+The predicted toxicity appears to be influenced by specific atomic environments and substructures
+within each molecule. The model gives higher importance to a limited set of atoms rather than the
+whole molecule uniformly, suggesting that local structural features play a major role in the
+predicted combined toxicity of the pair.

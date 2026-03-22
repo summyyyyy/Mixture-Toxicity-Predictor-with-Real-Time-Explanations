@@ -1,0 +1,23 @@
+{
+  "idx": 162,
+  "pairkey": "CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1",
+  "source": "Acute_Oral_Toxicity",
+  "drug_a_label": "1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol",
+  "drug_b_label": "2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol",
+  "smiles_a": "CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1",
+  "smiles_b": "CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1",
+  "true_pLD50": 2.672207832336426,
+  "pred_pLD50": 3.1922555630972465,
+  "toxicity_level": "very highly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 4 (atom 1)",
+    "aromatic N sp2 degree 2 (atom 17)",
+    "aromatic C sp2 degree 2 1 H (atom 18)"
+  ],
+  "top_atoms_b": [
+    "aromatic N sp2 degree 2 (atom 20)",
+    "aromatic N sp2 degree 2 (atom 18)",
+    "C sp3 degree 4 (atom 10)"
+  ],
+  "xai_method": "FeatureAblation"
+}

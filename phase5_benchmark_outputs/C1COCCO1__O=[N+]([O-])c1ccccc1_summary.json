@@ -1,0 +1,23 @@
+{
+  "idx": 46,
+  "pairkey": "C1COCCO1||O=[N+]([O-])c1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "1,4-dioxane",
+  "drug_b_label": "nitrobenzene",
+  "smiles_a": "C1COCCO1",
+  "smiles_b": "O=[N+]([O-])c1ccccc1",
+  "true_pLD50": 2.1512582302093506,
+  "pred_pLD50": 2.087505997605941,
+  "toxicity_level": "moderately toxic",
+  "top_atoms_a": [
+    "ring C sp3 degree 2 2 H (atom 3)",
+    "ring C sp3 degree 2 2 H (atom 1)",
+    "ring C sp3 degree 2 2 H (atom 4)"
+  ],
+  "top_atoms_b": [
+    "O sp2 degree 1 charge -1 (atom 2)",
+    "O sp2 degree 1 (atom 0)",
+    "N sp2 degree 3 charge +1 (atom 1)"
+  ],
+  "xai_method": "FeatureAblation"
+}

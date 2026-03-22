@@ -1,0 +1,23 @@
+{
+  "idx": 279,
+  "pairkey": "CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "2-[2-(2-tridecoxyethoxy)ethoxy]ethanol",
+  "drug_b_label": "2-phenoxyethanol",
+  "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
+  "smiles_b": "OCCOc1ccccc1",
+  "true_pLD50": 1.4354965686798096,
+  "pred_pLD50": 1.5258180586967869,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 21)",
+    "C sp3 degree 2 2 H (atom 20)",
+    "C sp3 degree 2 2 H (atom 15)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 4)",
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 8)"
+  ],
+  "xai_method": "FeatureAblation"
+}

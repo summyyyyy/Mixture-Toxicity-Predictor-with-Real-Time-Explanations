@@ -1,0 +1,28 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1
+Drug A: 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol
+Drug B: 2-phenoxyethanol
+
+Observed mixture toxicity (pLD50): 1.4355
+Predicted mixture toxicity (pLD50): 1.5258
+Toxicity level: mildly toxic
+
+Key contributing atoms in Drug A:
+- C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15)
+
+Key contributing atoms in Drug B:
+- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 8)
+
+Important structural fragments in Drug A:
+- CC (atoms [20, 21])
+
+Important structural fragments in Drug B:
+- c (atoms [4]); ccc (atoms [6, 7, 8])
+
+Interpretation:
+The predicted toxicity appears to be influenced by specific atomic environments and substructures
+within each molecule. The model gives higher importance to a limited set of atoms rather than the
+whole molecule uniformly, suggesting that local structural features play a major role in the
+predicted combined toxicity of the pair.
