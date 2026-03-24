@@ -1,0 +1,50 @@
+{
+  "idx": 372,
+  "pairkey": "Nc1ccccc1||O=[N+]([O-])c1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "aniline",
+  "drug_b_label": "nitrobenzene",
+  "smiles_a": "Nc1ccccc1",
+  "smiles_b": "O=[N+]([O-])c1ccccc1",
+  "true_pLD50": 2.3400275707244873,
+  "pred_pLD50": 2.0404205049065003,
+  "absolute_error": 0.299607065817987,
+  "toxicity_level": "moderately toxic",
+  "top_atoms_a": [
+    "N sp2 degree 1 2 H (atom 0)",
+    "aromatic C sp2 degree 3 (atom 1)",
+    "aromatic C sp2 degree 2 1 H (atom 5)"
+  ],
+  "top_atoms_b": [
+    "N sp2 degree 3 charge +1 (atom 1)",
+    "O sp2 degree 1 charge -1 (atom 2)",
+    "aromatic C sp2 degree 2 1 H (atom 6)"
+  ],
+  "atom_reason_a": [
+    "Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_labels_b": [
+    "an oxygen-rich polar chain or functional group",
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_a": [
+    "N \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "[N+][O-] \u2192 an oxygen-rich polar chain or functional group",
+    "ccc \u2192 an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "FeatureAblation"
+}

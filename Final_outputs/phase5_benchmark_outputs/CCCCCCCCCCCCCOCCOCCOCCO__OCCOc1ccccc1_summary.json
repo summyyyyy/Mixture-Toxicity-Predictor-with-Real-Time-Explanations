@@ -1,0 +1,50 @@
+{
+  "idx": 279,
+  "pairkey": "CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "2-[2-(2-tridecoxyethoxy)ethoxy]ethanol",
+  "drug_b_label": "2-phenoxyethanol",
+  "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
+  "smiles_b": "OCCOc1ccccc1",
+  "true_pLD50": 1.4354965686798096,
+  "pred_pLD50": 1.5258180586967869,
+  "absolute_error": 0.09032149001697731,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 21)",
+    "C sp3 degree 2 2 H (atom 20)",
+    "C sp3 degree 2 2 H (atom 15)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 4)",
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 8)"
+  ],
+  "atom_reason_a": [
+    "Atom 21 is a C atom that may contribute to the local chemical environment.",
+    "Atom 20 is a C atom that may contribute to the local chemical environment.",
+    "Atom 15 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment"
+  ],
+  "fragment_labels_b": [
+    "an aromatic hydrophobic ring",
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_a": [
+    "CC \u2192 a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "c \u2192 an aromatic hydrophobic ring",
+    "ccc \u2192 an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "FeatureAblation"
+}

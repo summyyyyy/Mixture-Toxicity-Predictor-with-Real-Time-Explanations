@@ -1,0 +1,50 @@
+{
+  "idx": 131,
+  "pairkey": "CC#N||Nc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "acetonitrile",
+  "drug_b_label": "aniline",
+  "smiles_a": "CC#N",
+  "smiles_b": "Nc1ccccc1",
+  "true_pLD50": 1.6625922918319702,
+  "pred_pLD50": 1.807433109142687,
+  "absolute_error": 0.14484081731071674,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "N sp degree 1 (atom 2)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "C sp degree 2 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "N sp2 degree 1 2 H (atom 0)",
+    "aromatic C sp2 degree 2 1 H (atom 5)",
+    "aromatic C sp2 degree 2 1 H (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment",
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_labels_b": [
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_a": [
+    "C \u2192 a general structural fragment",
+    "N \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "N \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "FeatureAblation"
+}

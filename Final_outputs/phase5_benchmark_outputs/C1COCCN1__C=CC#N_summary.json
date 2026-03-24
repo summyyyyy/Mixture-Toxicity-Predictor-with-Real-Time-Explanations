@@ -1,0 +1,48 @@
+{
+  "idx": 4,
+  "pairkey": "C1COCCN1||C=CC#N",
+  "source": "Smyth",
+  "drug_a_label": "morpholine",
+  "drug_b_label": "prop-2-enenitrile",
+  "smiles_a": "C1COCCN1",
+  "smiles_b": "C=CC#N",
+  "true_pLD50": 2.1301522254943848,
+  "pred_pLD50": 2.196291052027982,
+  "absolute_error": 0.06613882653359715,
+  "toxicity_level": "moderately toxic",
+  "top_atoms_a": [
+    "ring N sp3 degree 2 1 H (atom 5)",
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 0)"
+  ],
+  "top_atoms_b": [
+    "C sp degree 2 (atom 2)",
+    "C sp2 degree 1 2 H (atom 0)",
+    "C sp2 degree 2 1 H (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 0 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing heterocycle"
+  ],
+  "fragment_labels_b": [
+    "a general structural fragment"
+  ],
+  "fragment_descriptions_a": [
+    "N \u2192 a nitrogen-containing heterocycle"
+  ],
+  "fragment_descriptions_b": [
+    "C \u2192 a general structural fragment"
+  ],
+  "interaction_interpretation": "The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "FeatureAblation"
+}

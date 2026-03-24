@@ -1,0 +1,50 @@
+{
+  "idx": 118,
+  "pairkey": "CC#N||CC(C)=O",
+  "source": "Smyth",
+  "drug_a_label": "acetonitrile",
+  "drug_b_label": "propan-2-one",
+  "smiles_a": "CC#N",
+  "smiles_b": "CC(C)=O",
+  "true_pLD50": 1.3822383880615234,
+  "pred_pLD50": 0.7173942564530289,
+  "absolute_error": 0.6648441316084945,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 1 3 H (atom 0)",
+    "N sp degree 1 (atom 2)",
+    "C sp degree 2 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "O sp2 degree 1 (atom 3)",
+    "C sp2 degree 3 (atom 1)",
+    "C sp3 degree 1 3 H (atom 2)"
+  ],
+  "atom_reason_a": [
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 3 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 2 is a C atom that may contribute to the local chemical environment."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment",
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_labels_b": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_a": [
+    "C \u2192 a general structural fragment",
+    "N \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "O \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
+  "xai_method": "FeatureAblation"
+}
