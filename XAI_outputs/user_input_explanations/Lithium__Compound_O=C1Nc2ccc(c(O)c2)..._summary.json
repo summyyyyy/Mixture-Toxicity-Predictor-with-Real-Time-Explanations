@@ -1,0 +1,35 @@
+{
+  "drug_a_label": "Lithium",
+  "drug_b_label": "Compound_O=C1Nc2ccc(c(O)c2)...",
+  "smiles_a": "[Li]",
+  "smiles_b": "O=C1Nc2ccc(c(O)c2)S(=O)N1",
+  "pred_pLD50": 2.2014560725712498,
+  "toxicity_level": "moderate toxicity",
+  "top_atoms_a": [
+    "Li other degree 0 (atom 0)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 2 1 H (atom 5)",
+    "ring N sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 2 1 H (atom 9)"
+  ],
+  "atom_reason_a": [
+    "Atom 0 is a Li atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_descriptions_a": [
+    "[Li] -> a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "N -> a nitrogen-containing heterocycle",
+    "ccc -> an aromatic hydrophobic ring",
+    "O -> an oxygen-rich polar chain or functional group",
+    "c -> an aromatic hydrophobic ring",
+    "O -> an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in Lithium and a nitrogen-containing heterocycle in Compound_O=C1Nc2ccc(c(O)c2)..., suggesting that their interaction may influence toxicity through combined structural and chemical effects."
+}

@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights an aromatic hydrophobic ring in 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and a non-aromatic ring structure in 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights aromatic regions in both 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
 
 5. Prediction reliability
 

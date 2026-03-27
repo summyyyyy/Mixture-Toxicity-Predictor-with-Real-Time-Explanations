@@ -1,0 +1,36 @@
+{
+  "drug_a_label": "Tramadol",
+  "drug_b_label": "Sertraline",
+  "smiles_a": "COc1cccc(C2(O)CCCCC2CN(C)C)c1",
+  "smiles_b": "CNC1CCC(c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "pred_pLD50": 2.6708814107490673,
+  "toxicity_level": "high toxicity",
+  "top_atoms_a": [
+    "N sp3 degree 3 (atom 15)",
+    "O sp2 degree 2 (atom 1)",
+    "ring C sp3 degree 2 2 H (atom 12)"
+  ],
+  "top_atoms_b": [
+    "ring C sp3 degree 3 1 H (atom 2)",
+    "ring C sp3 degree 2 2 H (atom 3)",
+    "N sp3 degree 2 1 H (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 15 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 1 is an oxygen atom, which may indicate a polar functional group.",
+    "Atom 12 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "fragment_descriptions_a": [
+    "O -> an oxygen-rich polar chain or functional group",
+    "N -> an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "C -> a non-aromatic ring structure"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity."
+}

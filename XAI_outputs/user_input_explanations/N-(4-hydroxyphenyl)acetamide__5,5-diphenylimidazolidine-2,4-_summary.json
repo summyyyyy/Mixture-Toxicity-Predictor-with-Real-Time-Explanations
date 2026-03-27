@@ -1,0 +1,35 @@
+{
+  "drug_a_label": "N-(4-hydroxyphenyl)acetamide",
+  "drug_b_label": "5,5-diphenylimidazolidine-2,4-dione",
+  "smiles_a": "CC(=O)Nc1ccc(O)cc1",
+  "smiles_b": "O=C1NC(=O)C(c2ccccc2)(c2ccccc2)N1",
+  "pred_pLD50": 2.6200314783815504,
+  "toxicity_level": "high toxicity",
+  "top_atoms_a": [
+    "aromatic C sp2 degree 3 (atom 7)",
+    "O sp2 degree 1 1 H (atom 8)",
+    "N sp2 degree 2 1 H (atom 3)"
+  ],
+  "top_atoms_b": [
+    "ring N sp2 degree 2 1 H (atom 18)",
+    "ring C sp3 degree 4 (atom 5)",
+    "ring N sp2 degree 2 1 H (atom 2)"
+  ],
+  "atom_reason_a": [
+    "Atom 7 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an oxygen atom, which may indicate a polar functional group.",
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "atom_reason_b": [
+    "Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 5 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 2 is a ring nitrogen, which may influence polarity, basicity, or binding behavior."
+  ],
+  "fragment_descriptions_a": [
+    "cO -> an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_b": [
+    "CN -> a nitrogen-containing heterocycle"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity."
+}

@@ -1,0 +1,39 @@
+
+--- Chemical Interpretation ---
+
+Drug A: Compound_O=C1CN(c2ccccc2)C(...
+Drug B: Compound_CC1=C(C(=O)OC2CC(C...
+
+Predicted pLD50: 2.4970
+Predicted toxicity level: moderate toxicity
+
+1. Model focus
+
+Drug A important atoms:
+- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 3 (atom 13); ring C sp2 degree 3 (atom 1)
+
+Drug B important atoms:
+- ring C sp3 degree 3 1 H (atom 22); ring C sp3 degree 2 2 H (atom 14); ring C sp3 degree 3 1 H (atom 18)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 13 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 1 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 22 is a ring carbon, which may contribute to structural rigidity. Atom 14 is a ring carbon, which may contribute to structural rigidity. Atom 18 is a ring carbon, which may contribute to structural rigidity.
+
+3. Key structural fragments
+
+Drug A:
+- C -> a non-aromatic ring structure; c -> an aromatic hydrophobic ring; c -> an aromatic hydrophobic ring
+
+Drug B:
+- C -> a non-aromatic ring structure; C -> a non-aromatic ring structure; CC -> a non-aromatic ring structure
+
+4. Interaction-level interpretation
+
+The model highlights aromatic regions in both Compound_O=C1CN(c2ccccc2)C(... and Compound_CC1=C(C(=O)OC2CC(C..., suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
+
+NOTE:
+This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

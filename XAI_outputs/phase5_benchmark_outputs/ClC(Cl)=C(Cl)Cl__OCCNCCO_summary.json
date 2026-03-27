@@ -42,7 +42,7 @@
   "fragment_descriptions_b": [
     "N \u2192 an amine-like or nitrogen-containing region"
   ],
-  "interaction_interpretation": "The model highlights a halogen-substituted region (affects lipophilicity and toxicity) in 1,1,2,2-tetrachloroethene and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.",
   "prediction_reliability": "The prediction is reasonably close to the observed value.",
   "xai_method": "FeatureAblation"
 }

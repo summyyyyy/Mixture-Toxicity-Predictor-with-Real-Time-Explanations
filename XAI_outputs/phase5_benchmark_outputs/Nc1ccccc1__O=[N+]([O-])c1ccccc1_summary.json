@@ -44,7 +44,7 @@
     "[N+][O-] \u2192 an oxygen-rich polar chain or functional group",
     "ccc \u2192 an aromatic hydrophobic ring"
   ],
-  "interaction_interpretation": "The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
   "prediction_reliability": "The prediction is reasonably close to the observed value.",
   "xai_method": "FeatureAblation"
 }

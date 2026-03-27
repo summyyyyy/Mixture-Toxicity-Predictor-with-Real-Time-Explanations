@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a halogen-substituted region (affects lipophilicity and toxicity) in 1,1,2,2-tetrachloroethene and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.
 
 5. Prediction reliability
 

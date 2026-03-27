@@ -1,0 +1,38 @@
+{
+  "drug_a_label": "Tramadol",
+  "drug_b_label": "Diazepam",
+  "smiles_a": "COc1cccc(C2(O)CCCCC2CN(C)C)c1",
+  "smiles_b": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+  "pred_pLD50": 2.2800075176599726,
+  "toxicity_level": "moderate toxicity",
+  "top_atoms_a": [
+    "N sp3 degree 3 (atom 15)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "aromatic C sp2 degree 3 (atom 2)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 2 1 H (atom 10)",
+    "aromatic C sp2 degree 2 1 H (atom 9)",
+    "aromatic C sp2 degree 2 1 H (atom 11)"
+  ],
+  "atom_reason_a": [
+    "Atom 15 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 10 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 11 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_descriptions_a": [
+    "C -> a general structural fragment",
+    "c -> an aromatic hydrophobic ring",
+    "CNC -> an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "N -> a nitrogen-containing heterocycle",
+    "ccc -> an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in Tramadol and a nitrogen-containing heterocycle in Diazepam, suggesting that their interaction may influence toxicity through combined structural and chemical effects."
+}

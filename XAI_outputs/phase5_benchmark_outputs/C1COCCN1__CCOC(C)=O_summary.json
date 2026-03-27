@@ -42,7 +42,7 @@
   "fragment_descriptions_b": [
     "C \u2192 a general structural fragment"
   ],
-  "interaction_interpretation": "The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
   "xai_method": "FeatureAblation"
 }

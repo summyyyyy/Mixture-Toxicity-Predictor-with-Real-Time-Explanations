@@ -46,7 +46,7 @@
   "fragment_descriptions_b": [
     "C \u2192 a non-aromatic ring structure"
   ],
-  "interaction_interpretation": "The model highlights an aromatic hydrophobic ring in 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and a non-aromatic ring structure in 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights aromatic regions in both 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
   "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
   "xai_method": "FeatureAblation"
 }

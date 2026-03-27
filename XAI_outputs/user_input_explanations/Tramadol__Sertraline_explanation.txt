@@ -1,0 +1,39 @@
+
+--- Chemical Interpretation ---
+
+Drug A: Tramadol
+Drug B: Sertraline
+
+Predicted pLD50: 2.6709
+Predicted toxicity level: high toxicity
+
+1. Model focus
+
+Drug A important atoms:
+- N sp3 degree 3 (atom 15); O sp2 degree 2 (atom 1); ring C sp3 degree 2 2 H (atom 12)
+
+Drug B important atoms:
+- ring C sp3 degree 3 1 H (atom 2); ring C sp3 degree 2 2 H (atom 3); N sp3 degree 2 1 H (atom 1)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 15 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is an oxygen atom, which may indicate a polar functional group. Atom 12 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 2 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
+
+3. Key structural fragments
+
+Drug A:
+- O -> an oxygen-rich polar chain or functional group; N -> an amine-like or nitrogen-containing region
+
+Drug B:
+- C -> a non-aromatic ring structure
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+NOTE:
+This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

@@ -1,0 +1,39 @@
+{
+  "drug_a_label": "Warfarin",
+  "drug_b_label": "Ibuprofen",
+  "smiles_a": "CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",
+  "smiles_b": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+  "pred_pLD50": 2.508641889902821,
+  "toxicity_level": "high toxicity",
+  "top_atoms_a": [
+    "C sp3 degree 3 1 H (atom 4)",
+    "O sp2 degree 1 (atom 22)",
+    "aromatic C sp2 degree 2 1 H (atom 8)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 7)",
+    "C sp3 degree 2 2 H (atom 3)",
+    "C sp3 degree 3 1 H (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 4 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 22 is an oxygen atom, which may indicate a polar functional group.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 7 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 3 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region."
+  ],
+  "fragment_descriptions_a": [
+    "C=O -> an oxygen-rich polar chain or functional group",
+    "C -> a general structural fragment",
+    "ccc -> an aromatic hydrophobic ring",
+    "O -> an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_b": [
+    "CC -> a general structural fragment",
+    "c -> an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights an oxygen-rich polar chain or functional group in Warfarin and a general structural fragment in Ibuprofen, suggesting that their interaction may influence toxicity through combined structural and chemical effects."
+}

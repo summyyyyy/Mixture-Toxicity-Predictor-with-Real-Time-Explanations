@@ -15,7 +15,7 @@ Drug A important atoms:
 - C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15)
 
 Drug B important atoms:
-- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 8)
+- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 6)
 
 2. Chemical meaning of important atoms
 
@@ -23,7 +23,7 @@ Drug A:
 - Atom 21 is a C atom that may contribute to the local chemical environment. Atom 20 is a C atom that may contribute to the local chemical environment. Atom 15 is a C atom that may contribute to the local chemical environment.
 
 Drug B:
-- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.
+- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.
 
 3. Key structural fragments
 
@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 

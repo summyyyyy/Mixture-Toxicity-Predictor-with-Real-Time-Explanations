@@ -1,0 +1,39 @@
+
+--- Chemical Interpretation ---
+
+Drug A: Vitamin C
+Drug B: Paracetamol
+
+Predicted pLD50: 1.7445
+Predicted toxicity level: low toxicity
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 2 2 H (atom 6); ring C sp2 degree 3 (atom 1); ring C sp3 degree 3 1 H (atom 3)
+
+Drug B important atoms:
+- O sp2 degree 1 1 H (atom 8); C sp3 degree 1 3 H (atom 0); C sp2 degree 3 (atom 1)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 6 is a C atom that may contribute to the local chemical environment. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 8 is an oxygen atom, which may indicate a polar functional group. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region.
+
+3. Key structural fragments
+
+Drug A:
+- C -> a non-aromatic ring structure; C -> a general structural fragment
+
+Drug B:
+- O -> an oxygen-rich polar chain or functional group
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+NOTE:
+This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

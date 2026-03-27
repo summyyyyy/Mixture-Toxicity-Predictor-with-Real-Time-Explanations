@@ -44,7 +44,7 @@
   "fragment_descriptions_b": [
     "[O-] \u2192 an oxygen-rich polar chain or functional group"
   ],
-  "interaction_interpretation": "The model highlights a non-aromatic ring structure in 1,4-dioxane and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
   "xai_method": "FeatureAblation"
 }

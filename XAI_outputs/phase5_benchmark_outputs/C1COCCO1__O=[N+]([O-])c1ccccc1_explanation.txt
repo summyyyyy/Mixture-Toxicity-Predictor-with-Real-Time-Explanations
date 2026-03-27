@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a non-aromatic ring structure in 1,4-dioxane and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
 
 5. Prediction reliability
 

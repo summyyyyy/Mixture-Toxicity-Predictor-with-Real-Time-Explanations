@@ -1,0 +1,39 @@
+{
+  "drug_a_label": "Compound_O=C1CN(c2ccccc2)C(...",
+  "drug_b_label": "Compound_CC1=C(C(=O)OC2CC(C...",
+  "smiles_a": "O=C1CN(c2ccccc2)C(=O)N1c1ccccn1",
+  "smiles_b": "CC1=C(C(=O)OC2CC(C)C(C(=O)O)CC2O)CC(C(C)C)C(C(C)C)C1",
+  "pred_pLD50": 2.4970045960480127,
+  "toxicity_level": "moderate toxicity",
+  "top_atoms_a": [
+    "aromatic C sp2 degree 3 (atom 4)",
+    "aromatic C sp2 degree 3 (atom 13)",
+    "ring C sp2 degree 3 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "ring C sp3 degree 3 1 H (atom 22)",
+    "ring C sp3 degree 2 2 H (atom 14)",
+    "ring C sp3 degree 3 1 H (atom 18)"
+  ],
+  "atom_reason_a": [
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 13 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 22 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 14 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 18 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "fragment_descriptions_a": [
+    "C -> a non-aromatic ring structure",
+    "c -> an aromatic hydrophobic ring",
+    "c -> an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_b": [
+    "C -> a non-aromatic ring structure",
+    "C -> a non-aromatic ring structure",
+    "CC -> a non-aromatic ring structure"
+  ],
+  "interaction_interpretation": "The model highlights aromatic regions in both Compound_O=C1CN(c2ccccc2)C(... and Compound_CC1=C(C(=O)OC2CC(C..., suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity."
+}

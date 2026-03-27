@@ -1,0 +1,39 @@
+
+--- Chemical Interpretation ---
+
+Drug A: Warfarin
+Drug B: Ibuprofen
+
+Predicted pLD50: 2.5086
+Predicted toxicity level: high toxicity
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 3 1 H (atom 4); O sp2 degree 1 (atom 22); aromatic C sp2 degree 2 1 H (atom 8)
+
+Drug B important atoms:
+- aromatic C sp2 degree 3 (atom 7); C sp3 degree 2 2 H (atom 3); C sp3 degree 3 1 H (atom 1)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 4 is a highly connected C atom, which may lie in a structurally important region. Atom 22 is an oxygen atom, which may indicate a polar functional group. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+Drug B:
+- Atom 7 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 3 is a C atom that may contribute to the local chemical environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region.
+
+3. Key structural fragments
+
+Drug A:
+- C=O -> an oxygen-rich polar chain or functional group; C -> a general structural fragment; ccc -> an aromatic hydrophobic ring; O -> an oxygen-rich polar chain or functional group
+
+Drug B:
+- CC -> a general structural fragment; c -> an aromatic hydrophobic ring
+
+4. Interaction-level interpretation
+
+The model highlights an oxygen-rich polar chain or functional group in Warfarin and a general structural fragment in Ibuprofen, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+NOTE:
+This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

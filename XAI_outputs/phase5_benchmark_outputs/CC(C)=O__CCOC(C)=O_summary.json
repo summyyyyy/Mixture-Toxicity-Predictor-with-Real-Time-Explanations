@@ -46,7 +46,7 @@
     "CC \u2192 a general structural fragment",
     "CC \u2192 a general structural fragment"
   ],
-  "interaction_interpretation": "The model highlights a general structural fragment in propan-2-one and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.",
   "prediction_reliability": "The prediction is reasonably close to the observed value.",
   "xai_method": "FeatureAblation"
 }

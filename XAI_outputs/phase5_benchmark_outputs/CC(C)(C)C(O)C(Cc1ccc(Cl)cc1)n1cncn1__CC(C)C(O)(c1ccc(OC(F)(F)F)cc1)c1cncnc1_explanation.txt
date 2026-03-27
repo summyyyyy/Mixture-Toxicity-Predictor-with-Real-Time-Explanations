@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol and a general structural fragment in 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.
 
 5. Prediction reliability
 

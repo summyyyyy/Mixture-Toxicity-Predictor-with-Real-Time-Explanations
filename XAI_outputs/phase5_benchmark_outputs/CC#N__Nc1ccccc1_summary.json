@@ -44,7 +44,7 @@
   "fragment_descriptions_b": [
     "N \u2192 an amine-like or nitrogen-containing region"
   ],
-  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
   "xai_method": "FeatureAblation"
 }

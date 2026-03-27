@@ -7,8 +7,8 @@
   "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
   "smiles_b": "OCCOc1ccccc1",
   "true_pLD50": 1.4354965686798096,
-  "pred_pLD50": 1.5258180586967869,
-  "absolute_error": 0.09032149001697731,
+  "pred_pLD50": 1.5258180380945556,
+  "absolute_error": 0.09032146941474606,
   "toxicity_level": "mildly toxic",
   "top_atoms_a": [
     "C sp3 degree 2 2 H (atom 21)",
@@ -17,8 +17,8 @@
   ],
   "top_atoms_b": [
     "aromatic C sp2 degree 3 (atom 4)",
-    "aromatic C sp2 degree 2 1 H (atom 6)",
-    "aromatic C sp2 degree 2 1 H (atom 8)"
+    "aromatic C sp2 degree 2 1 H (atom 8)",
+    "aromatic C sp2 degree 2 1 H (atom 6)"
   ],
   "atom_reason_a": [
     "Atom 21 is a C atom that may contribute to the local chemical environment.",
@@ -27,8 +27,8 @@
   ],
   "atom_reason_b": [
     "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system."
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "fragment_labels_a": [
     "a general structural fragment"
@@ -44,7 +44,7 @@
     "c \u2192 an aromatic hydrophobic ring",
     "ccc \u2192 an aromatic hydrophobic ring"
   ],
-  "interaction_interpretation": "The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
   "xai_method": "FeatureAblation"
 }

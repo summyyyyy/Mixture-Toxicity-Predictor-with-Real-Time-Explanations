@@ -1,0 +1,36 @@
+{
+  "drug_a_label": "Vitamin C",
+  "drug_b_label": "Paracetamol",
+  "smiles_a": "O=C1OC(C(O)CO)C(O)=C1O",
+  "smiles_b": "CC(=O)Nc1ccc(O)cc1",
+  "pred_pLD50": 1.744484098074107,
+  "toxicity_level": "low toxicity",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 6)",
+    "ring C sp2 degree 3 (atom 1)",
+    "ring C sp3 degree 3 1 H (atom 3)"
+  ],
+  "top_atoms_b": [
+    "O sp2 degree 1 1 H (atom 8)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "C sp2 degree 3 (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 6 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 8 is an oxygen atom, which may indicate a polar functional group.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region."
+  ],
+  "fragment_descriptions_a": [
+    "C -> a non-aromatic ring structure",
+    "C -> a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "O -> an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity."
+}

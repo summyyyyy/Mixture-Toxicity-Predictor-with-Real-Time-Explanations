@@ -35,13 +35,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 

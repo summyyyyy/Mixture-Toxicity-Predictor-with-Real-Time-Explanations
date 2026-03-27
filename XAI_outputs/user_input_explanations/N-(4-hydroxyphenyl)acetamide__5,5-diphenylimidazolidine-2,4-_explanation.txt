@@ -1,0 +1,39 @@
+
+--- Chemical Interpretation ---
+
+Drug A: N-(4-hydroxyphenyl)acetamide
+Drug B: 5,5-diphenylimidazolidine-2,4-dione
+
+Predicted pLD50: 2.6200
+Predicted toxicity level: high toxicity
+
+1. Model focus
+
+Drug A important atoms:
+- aromatic C sp2 degree 3 (atom 7); O sp2 degree 1 1 H (atom 8); N sp2 degree 2 1 H (atom 3)
+
+Drug B important atoms:
+- ring N sp2 degree 2 1 H (atom 18); ring C sp3 degree 4 (atom 5); ring N sp2 degree 2 1 H (atom 2)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 7 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an oxygen atom, which may indicate a polar functional group. Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
+
+Drug B:
+- Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 5 is a ring carbon, which may contribute to structural rigidity. Atom 2 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.
+
+3. Key structural fragments
+
+Drug A:
+- cO -> an aromatic hydrophobic ring
+
+Drug B:
+- CN -> a nitrogen-containing heterocycle
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+NOTE:
+This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

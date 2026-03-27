@@ -44,7 +44,7 @@
   "fragment_descriptions_b": [
     "O \u2192 an oxygen-rich polar chain or functional group"
   ],
-  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",
+  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
   "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
   "xai_method": "FeatureAblation"
 }

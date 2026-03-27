@@ -1,5 +1,5 @@
 idx,PairKey,DrugA,DrugB,source,SMILES_A,SMILES_B,true_pLD50,pred_pLD50,toxicity_level,top_atoms_A,top_atoms_B,atom_reason_A,atom_reason_B,fragment_labels_A,fragment_labels_B,fragment_desc_A,fragment_desc_B,interaction_interpretation,prediction_reliability,interpretation_text,xai_method,text_path,drugA_highlight_path,drugB_highlight_path,drugA_bars_path,drugB_bars_path,summary_json_path
-4,C1COCCN1||C=CC#N,morpholine,prop-2-enenitrile,Smyth,C1COCCN1,C=CC#N,2.1301522254943848,2.196291052027982,moderately toxic,ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 0),C sp degree 2 (atom 2); C sp2 degree 1 2 H (atom 0); C sp2 degree 2 1 H (atom 1),"Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 0 is a ring carbon, which may contribute to structural rigidity.",Atom 2 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.,a nitrogen-containing heterocycle,a general structural fragment,N → a nitrogen-containing heterocycle,C → a general structural fragment,The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction closely matches the observed toxicity.,"
+4,C1COCCN1||C=CC#N,morpholine,prop-2-enenitrile,Smyth,C1COCCN1,C=CC#N,2.1301522254943848,2.196291052027982,moderately toxic,ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 0),C sp degree 2 (atom 2); C sp2 degree 1 2 H (atom 0); C sp2 degree 2 1 H (atom 1),"Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 0 is a ring carbon, which may contribute to structural rigidity.",Atom 2 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.,a nitrogen-containing heterocycle,a general structural fragment,N → a nitrogen-containing heterocycle,C → a general structural fragment,"The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction closely matches the observed toxicity.,"
 --- Chemical Interpretation ---
 
 PairKey: C1COCCN1||C=CC#N
@@ -36,13 +36,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -50,7 +44,7 @@ The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__C=CC#N_summary.json
-131,CC#N||Nc1ccccc1,acetonitrile,aniline,Smyth,CC#N,Nc1ccccc1,1.6625922918319702,1.807433109142687,mildly toxic,N sp degree 1 (atom 2); C sp3 degree 1 3 H (atom 0); C sp degree 2 (atom 1),N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 2 1 H (atom 5); aromatic C sp2 degree 2 1 H (atom 3),"Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.","Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",a general structural fragment; an amine-like or nitrogen-containing region,an amine-like or nitrogen-containing region,C → a general structural fragment; N → an amine-like or nitrogen-containing region,N → an amine-like or nitrogen-containing region,The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction closely matches the observed toxicity.,"
+131,CC#N||Nc1ccccc1,acetonitrile,aniline,Smyth,CC#N,Nc1ccccc1,1.6625922918319702,1.807433109142687,mildly toxic,N sp degree 1 (atom 2); C sp3 degree 1 3 H (atom 0); C sp degree 2 (atom 1),N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 2 1 H (atom 5); aromatic C sp2 degree 2 1 H (atom 3),"Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.","Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",a general structural fragment; an amine-like or nitrogen-containing region,an amine-like or nitrogen-containing region,C → a general structural fragment; N → an amine-like or nitrogen-containing region,N → an amine-like or nitrogen-containing region,"The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction closely matches the observed toxicity.,"
 --- Chemical Interpretation ---
 
 PairKey: CC#N||Nc1ccccc1
@@ -87,13 +81,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -101,7 +89,7 @@ The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__Nc1ccccc1_summary.json
-172,CC(C)=O||CCOC(C)=O,propan-2-one,ethyl acetate,Smyth,CC(C)=O,CCOC(C)=O,0.8543239235877991,1.0395061842001225,very mildly toxic,C sp3 degree 1 3 H (atom 2); C sp3 degree 1 3 H (atom 0); C sp2 degree 3 (atom 1),C sp3 degree 1 3 H (atom 0); C sp2 degree 3 (atom 3); C sp3 degree 1 3 H (atom 4),"Atom 2 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region.","Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a C atom that may contribute to the local chemical environment.",a general structural fragment; a general structural fragment,a general structural fragment; a general structural fragment,C → a general structural fragment; C → a general structural fragment,CC → a general structural fragment; CC → a general structural fragment,The model highlights a general structural fragment in propan-2-one and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction is reasonably close to the observed value.,"
+172,CC(C)=O||CCOC(C)=O,propan-2-one,ethyl acetate,Smyth,CC(C)=O,CCOC(C)=O,0.8543239235877991,1.0395061842001225,very mildly toxic,C sp3 degree 1 3 H (atom 2); C sp3 degree 1 3 H (atom 0); C sp2 degree 3 (atom 1),C sp3 degree 1 3 H (atom 0); C sp2 degree 3 (atom 3); C sp3 degree 1 3 H (atom 4),"Atom 2 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region.","Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a C atom that may contribute to the local chemical environment.",a general structural fragment; a general structural fragment,a general structural fragment; a general structural fragment,C → a general structural fragment; C → a general structural fragment,CC → a general structural fragment; CC → a general structural fragment,"The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.",The prediction is reasonably close to the observed value.,"
 --- Chemical Interpretation ---
 
 PairKey: CC(C)=O||CCOC(C)=O
@@ -138,13 +126,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in propan-2-one and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.
 
 5. Prediction reliability
 
@@ -152,7 +134,7 @@ The prediction is reasonably close to the observed value.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)=O__CCOC(C)=O_summary.json
-17,C1COCCN1||CCOC(C)=O,morpholine,ethyl acetate,Smyth,C1COCCN1,CCOC(C)=O,1.393189549446106,1.4102947561595998,very mildly toxic,ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 1); ring C sp3 degree 2 2 H (atom 3),C sp3 degree 1 3 H (atom 4); O sp2 degree 2 (atom 2); C sp3 degree 1 3 H (atom 0),"Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity.","Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 0 is a C atom that may contribute to the local chemical environment.",a nitrogen-containing heterocycle,a general structural fragment,N → a nitrogen-containing heterocycle,C → a general structural fragment,The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction closely matches the observed toxicity.,"
+17,C1COCCN1||CCOC(C)=O,morpholine,ethyl acetate,Smyth,C1COCCN1,CCOC(C)=O,1.393189549446106,1.4102947561595998,very mildly toxic,ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 1); ring C sp3 degree 2 2 H (atom 3),C sp3 degree 1 3 H (atom 4); O sp2 degree 2 (atom 2); C sp3 degree 1 3 H (atom 0),"Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity.","Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 0 is a C atom that may contribute to the local chemical environment.",a nitrogen-containing heterocycle,a general structural fragment,N → a nitrogen-containing heterocycle,C → a general structural fragment,"The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction closely matches the observed toxicity.,"
 --- Chemical Interpretation ---
 
 PairKey: C1COCCN1||CCOC(C)=O
@@ -189,13 +171,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -203,7 +179,7 @@ The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCN1__CCOC(C)=O_summary.json
-46,C1COCCO1||O=[N+]([O-])c1ccccc1,"1,4-dioxane",nitrobenzene,Smyth,C1COCCO1,O=[N+]([O-])c1ccccc1,2.1512582302093506,2.087505997605941,moderately toxic,ring C sp3 degree 2 2 H (atom 3); ring C sp3 degree 2 2 H (atom 1); ring C sp3 degree 2 2 H (atom 4),O sp2 degree 1 charge -1 (atom 2); O sp2 degree 1 (atom 0); N sp2 degree 3 charge +1 (atom 1),"Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 4 is a ring carbon, which may contribute to structural rigidity.","Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 0 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",a non-aromatic ring structure; a non-aromatic ring structure,an oxygen-rich polar chain or functional group,CC → a non-aromatic ring structure; CC → a non-aromatic ring structure,[O-] → an oxygen-rich polar chain or functional group,"The model highlights a non-aromatic ring structure in 1,4-dioxane and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",The prediction closely matches the observed toxicity.,"
+46,C1COCCO1||O=[N+]([O-])c1ccccc1,"1,4-dioxane",nitrobenzene,Smyth,C1COCCO1,O=[N+]([O-])c1ccccc1,2.1512582302093506,2.087505997605941,moderately toxic,ring C sp3 degree 2 2 H (atom 3); ring C sp3 degree 2 2 H (atom 1); ring C sp3 degree 2 2 H (atom 4),O sp2 degree 1 charge -1 (atom 2); O sp2 degree 1 (atom 0); N sp2 degree 3 charge +1 (atom 1),"Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 4 is a ring carbon, which may contribute to structural rigidity.","Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 0 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",a non-aromatic ring structure; a non-aromatic ring structure,an oxygen-rich polar chain or functional group,CC → a non-aromatic ring structure; CC → a non-aromatic ring structure,[O-] → an oxygen-rich polar chain or functional group,"The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",The prediction closely matches the observed toxicity.,"
 --- Chemical Interpretation ---
 
 PairKey: C1COCCO1||O=[N+]([O-])c1ccccc1
@@ -240,13 +216,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a non-aromatic ring structure in 1,4-dioxane and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
 
 5. Prediction reliability
 
@@ -254,7 +224,7 @@ The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\C1COCCO1__O=[N+]([O-])c1ccccc1_summary.json
-372,Nc1ccccc1||O=[N+]([O-])c1ccccc1,aniline,nitrobenzene,Smyth,Nc1ccccc1,O=[N+]([O-])c1ccccc1,2.3400275707244873,2.0404205049065003,moderately toxic,N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 3 (atom 1); aromatic C sp2 degree 2 1 H (atom 5),N sp2 degree 3 charge +1 (atom 1); O sp2 degree 1 charge -1 (atom 2); aromatic C sp2 degree 2 1 H (atom 6),"Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.","Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",an amine-like or nitrogen-containing region,an oxygen-rich polar chain or functional group; an aromatic hydrophobic ring,N → an amine-like or nitrogen-containing region,[N+][O-] → an oxygen-rich polar chain or functional group; ccc → an aromatic hydrophobic ring,The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction is reasonably close to the observed value.,"
+372,Nc1ccccc1||O=[N+]([O-])c1ccccc1,aniline,nitrobenzene,Smyth,Nc1ccccc1,O=[N+]([O-])c1ccccc1,2.3400275707244873,2.0404205049065003,moderately toxic,N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 3 (atom 1); aromatic C sp2 degree 2 1 H (atom 5),N sp2 degree 3 charge +1 (atom 1); O sp2 degree 1 charge -1 (atom 2); aromatic C sp2 degree 2 1 H (atom 6),"Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.","Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",an amine-like or nitrogen-containing region,an oxygen-rich polar chain or functional group; an aromatic hydrophobic ring,N → an amine-like or nitrogen-containing region,[N+][O-] → an oxygen-rich polar chain or functional group; ccc → an aromatic hydrophobic ring,"The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction is reasonably close to the observed value.,"
 --- Chemical Interpretation ---
 
 PairKey: Nc1ccccc1||O=[N+]([O-])c1ccccc1
@@ -291,13 +261,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -305,7 +269,7 @@ The prediction is reasonably close to the observed value.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\Nc1ccccc1__O=[N+]([O-])c1ccccc1_summary.json
-162,CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1,"1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol",2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol,Acute_Oral_Toxicity,CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1,CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1,2.672207832336426,3.1922555630972465,very highly toxic,C sp3 degree 4 (atom 1); aromatic N sp2 degree 2 (atom 17); aromatic C sp2 degree 2 1 H (atom 18),aromatic N sp2 degree 2 (atom 20); aromatic N sp2 degree 2 (atom 18); C sp3 degree 4 (atom 10),"Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 17 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is an aromatic carbon, which may belong to a hydrophobic ring system.","Atom 20 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 10 is a highly connected C atom, which may lie in a structurally important region.","a general structural fragment; an oxygen-rich polar chain or functional group; an aromatic hydrophobic ring; an aromatic hydrophobic ring; a nitrogen-containing aromatic ring (heterocycle, often bioactive)","a general structural fragment; a nitrogen-containing aromatic ring (heterocycle, often bioactive); a nitrogen-containing aromatic ring (heterocycle, often bioactive)","C → a general structural fragment; O → an oxygen-rich polar chain or functional group; c → an aromatic hydrophobic ring; c → an aromatic hydrophobic ring; cnc → a nitrogen-containing aromatic ring (heterocycle, often bioactive)","C → a general structural fragment; n → a nitrogen-containing aromatic ring (heterocycle, often bioactive); n → a nitrogen-containing aromatic ring (heterocycle, often bioactive)","The model highlights a general structural fragment in 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol and a general structural fragment in 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",The prediction differs from the observed value and should be interpreted cautiously.,"
+162,CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1,"1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol",2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol,Acute_Oral_Toxicity,CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1,CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1,2.672207832336426,3.1922555630972465,very highly toxic,C sp3 degree 4 (atom 1); aromatic N sp2 degree 2 (atom 17); aromatic C sp2 degree 2 1 H (atom 18),aromatic N sp2 degree 2 (atom 20); aromatic N sp2 degree 2 (atom 18); C sp3 degree 4 (atom 10),"Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 17 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is an aromatic carbon, which may belong to a hydrophobic ring system.","Atom 20 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 10 is a highly connected C atom, which may lie in a structurally important region.","a general structural fragment; an oxygen-rich polar chain or functional group; an aromatic hydrophobic ring; an aromatic hydrophobic ring; a nitrogen-containing aromatic ring (heterocycle, often bioactive)","a general structural fragment; a nitrogen-containing aromatic ring (heterocycle, often bioactive); a nitrogen-containing aromatic ring (heterocycle, often bioactive)","C → a general structural fragment; O → an oxygen-rich polar chain or functional group; c → an aromatic hydrophobic ring; c → an aromatic hydrophobic ring; cnc → a nitrogen-containing aromatic ring (heterocycle, often bioactive)","C → a general structural fragment; n → a nitrogen-containing aromatic ring (heterocycle, often bioactive); n → a nitrogen-containing aromatic ring (heterocycle, often bioactive)","The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.",The prediction differs from the observed value and should be interpreted cautiously.,"
 --- Chemical Interpretation ---
 
 PairKey: CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1||CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1
@@ -342,13 +306,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in 1-(4-chlorophenyl)-4,4-dimethyl-2-(1,2,4-triazol-1-yl)pentan-3-ol and a general structural fragment in 2-methyl-1-pyrimidin-5-yl-1-[4-(trifluoromethoxy)phenyl]propan-1-ol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.
 
 5. Prediction reliability
 
@@ -356,7 +314,7 @@ The prediction differs from the observed value and should be interpreted cautiou
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC(C)(C)C(O)C(Cc1ccc(Cl)cc1)n1cncn1__CC(C)C(O)(c1ccc(OC(F)(F)F)cc1)c1cncnc1_summary.json
-279,CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1,2-[2-(2-tridecoxyethoxy)ethoxy]ethanol,2-phenoxyethanol,Smyth,CCCCCCCCCCCCCOCCOCCOCCO,OCCOc1ccccc1,1.4354965686798096,1.5258180586967869,mildly toxic,C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15),aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 8),Atom 21 is a C atom that may contribute to the local chemical environment. Atom 20 is a C atom that may contribute to the local chemical environment. Atom 15 is a C atom that may contribute to the local chemical environment.,"Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.",a general structural fragment,an aromatic hydrophobic ring; an aromatic hydrophobic ring,CC → a general structural fragment,c → an aromatic hydrophobic ring; ccc → an aromatic hydrophobic ring,The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction closely matches the observed toxicity.,"
+279,CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1,2-[2-(2-tridecoxyethoxy)ethoxy]ethanol,2-phenoxyethanol,Smyth,CCCCCCCCCCCCCOCCOCCOCCO,OCCOc1ccccc1,1.4354965686798096,1.5258180380945556,mildly toxic,C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15),aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 6),Atom 21 is a C atom that may contribute to the local chemical environment. Atom 20 is a C atom that may contribute to the local chemical environment. Atom 15 is a C atom that may contribute to the local chemical environment.,"Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",a general structural fragment,an aromatic hydrophobic ring; an aromatic hydrophobic ring,CC → a general structural fragment,c → an aromatic hydrophobic ring; ccc → an aromatic hydrophobic ring,"The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction closely matches the observed toxicity.,"
 --- Chemical Interpretation ---
 
 PairKey: CCCCCCCCCCCCCOCCOCCOCCO||OCCOc1ccccc1
@@ -373,7 +331,7 @@ Drug A important atoms:
 - C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15)
 
 Drug B important atoms:
-- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 8)
+- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 6)
 
 2. Chemical meaning of important atoms
 
@@ -381,7 +339,7 @@ Drug A:
 - Atom 21 is a C atom that may contribute to the local chemical environment. Atom 20 is a C atom that may contribute to the local chemical environment. Atom 15 is a C atom that may contribute to the local chemical environment.
 
 Drug B:
-- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.
+- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.
 
 3. Key structural fragments
 
@@ -393,13 +351,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -407,7 +359,7 @@ The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CCCCCCCCCCCCCOCCOCCOCCO__OCCOc1ccccc1_summary.json
-365,ClC(Cl)=C(Cl)Cl||OCCNCCO,"1,1,2,2-tetrachloroethene",2-(2-hydroxyethylamino)ethanol,Smyth,ClC(Cl)=C(Cl)Cl,OCCNCCO,1.693162202835083,1.9311255246623023,mildly toxic,C sp2 degree 3 (atom 1); C sp2 degree 3 (atom 3); Cl sp3 degree 1 (atom 5),N sp3 degree 2 1 H (atom 3); C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 2),"Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.","Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is a C atom that may contribute to the local chemical environment.",a halogen-substituted region (affects lipophilicity and toxicity),an amine-like or nitrogen-containing region,ClC(Cl)=C(Cl)Cl → a halogen-substituted region (affects lipophilicity and toxicity),N → an amine-like or nitrogen-containing region,"The model highlights a halogen-substituted region (affects lipophilicity and toxicity) in 1,1,2,2-tetrachloroethene and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",The prediction is reasonably close to the observed value.,"
+365,ClC(Cl)=C(Cl)Cl||OCCNCCO,"1,1,2,2-tetrachloroethene",2-(2-hydroxyethylamino)ethanol,Smyth,ClC(Cl)=C(Cl)Cl,OCCNCCO,1.693162202835083,1.9311255246623023,mildly toxic,C sp2 degree 3 (atom 1); C sp2 degree 3 (atom 3); Cl sp3 degree 1 (atom 5),N sp3 degree 2 1 H (atom 3); C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 2),"Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.","Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is a C atom that may contribute to the local chemical environment.",a halogen-substituted region (affects lipophilicity and toxicity),an amine-like or nitrogen-containing region,ClC(Cl)=C(Cl)Cl → a halogen-substituted region (affects lipophilicity and toxicity),N → an amine-like or nitrogen-containing region,The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.,The prediction is reasonably close to the observed value.,"
 --- Chemical Interpretation ---
 
 PairKey: ClC(Cl)=C(Cl)Cl||OCCNCCO
@@ -444,13 +396,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a halogen-substituted region (affects lipophilicity and toxicity) in 1,1,2,2-tetrachloroethene and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.
 
 5. Prediction reliability
 
@@ -458,7 +404,7 @@ The prediction is reasonably close to the observed value.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\ClC(Cl)=C(Cl)Cl__OCCNCCO_summary.json
-240,CC1=CC(=O)CC(C)(C)C1||ClC(Cl)(Cl)Cl,"3,5,5-trimethylcyclohex-2-en-1-one",tetrachloromethane,Smyth,CC1=CC(=O)CC(C)(C)C1,ClC(Cl)(Cl)Cl,1.9406970739364624,1.6276245296766894,mildly toxic,C sp3 degree 1 3 H (atom 0); ring C sp2 degree 3 (atom 3); ring C sp2 degree 3 (atom 1),C sp3 degree 4 (atom 1); Cl sp3 degree 1 (atom 4); Cl sp3 degree 1 (atom 2),"Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity.","Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity. Atom 2 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",a non-aromatic ring structure; a non-aromatic ring structure,a general structural fragment,CC → a non-aromatic ring structure; C → a non-aromatic ring structure,C → a general structural fragment,"The model highlights a non-aromatic ring structure in 3,5,5-trimethylcyclohex-2-en-1-one and a general structural fragment in tetrachloromethane. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",The prediction is reasonably close to the observed value.,"
+240,CC1=CC(=O)CC(C)(C)C1||ClC(Cl)(Cl)Cl,"3,5,5-trimethylcyclohex-2-en-1-one",tetrachloromethane,Smyth,CC1=CC(=O)CC(C)(C)C1,ClC(Cl)(Cl)Cl,1.9406970739364624,1.6276245296766894,mildly toxic,C sp3 degree 1 3 H (atom 0); ring C sp2 degree 3 (atom 3); ring C sp2 degree 3 (atom 1),C sp3 degree 4 (atom 1); Cl sp3 degree 1 (atom 4); Cl sp3 degree 1 (atom 2),"Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity.","Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity. Atom 2 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",a non-aromatic ring structure; a non-aromatic ring structure,a general structural fragment,CC → a non-aromatic ring structure; C → a non-aromatic ring structure,C → a general structural fragment,"The model highlights a non-aromatic ring structure in 3,5,5-trimethylcyclohex-2-en-1-one and a general structural fragment in tetrachloromethane, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction is reasonably close to the observed value.,"
 --- Chemical Interpretation ---
 
 PairKey: CC1=CC(=O)CC(C)(C)C1||ClC(Cl)(Cl)Cl
@@ -495,13 +441,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a non-aromatic ring structure in 3,5,5-trimethylcyclohex-2-en-1-one and a general structural fragment in tetrachloromethane. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a non-aromatic ring structure in 3,5,5-trimethylcyclohex-2-en-1-one and a general structural fragment in tetrachloromethane, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -509,7 +449,7 @@ The prediction is reasonably close to the observed value.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC1=CC(=O)CC(C)(C)C1__ClC(Cl)(Cl)Cl_summary.json
-118,CC#N||CC(C)=O,acetonitrile,propan-2-one,Smyth,CC#N,CC(C)=O,1.3822383880615234,0.7173942564530289,very mildly toxic,C sp3 degree 1 3 H (atom 0); N sp degree 1 (atom 2); C sp degree 2 (atom 1),O sp2 degree 1 (atom 3); C sp2 degree 3 (atom 1); C sp3 degree 1 3 H (atom 2),"Atom 0 is a C atom that may contribute to the local chemical environment. Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is a C atom that may contribute to the local chemical environment.","Atom 3 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 2 is a C atom that may contribute to the local chemical environment.",a general structural fragment; an amine-like or nitrogen-containing region,an oxygen-rich polar chain or functional group,C → a general structural fragment; N → an amine-like or nitrogen-containing region,O → an oxygen-rich polar chain or functional group,The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.,The prediction differs from the observed value and should be interpreted cautiously.,"
+118,CC#N||CC(C)=O,acetonitrile,propan-2-one,Smyth,CC#N,CC(C)=O,1.3822383880615234,0.7173942564530289,very mildly toxic,C sp3 degree 1 3 H (atom 0); N sp degree 1 (atom 2); C sp degree 2 (atom 1),O sp2 degree 1 (atom 3); C sp2 degree 3 (atom 1); C sp3 degree 1 3 H (atom 2),"Atom 0 is a C atom that may contribute to the local chemical environment. Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is a C atom that may contribute to the local chemical environment.","Atom 3 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 2 is a C atom that may contribute to the local chemical environment.",a general structural fragment; an amine-like or nitrogen-containing region,an oxygen-rich polar chain or functional group,C → a general structural fragment; N → an amine-like or nitrogen-containing region,O → an oxygen-rich polar chain or functional group,"The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",The prediction differs from the observed value and should be interpreted cautiously.,"
 --- Chemical Interpretation ---
 
 PairKey: CC#N||CC(C)=O
@@ -546,13 +486,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propan-2-one, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
 
 5. Prediction reliability
 
@@ -560,7 +494,7 @@ The prediction differs from the observed value and should be interpreted cautiou
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.
 ",FeatureAblation,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_explanation.txt,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_drugA_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_drugB_highlight.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_drugA_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_drugB_bars.png,C:\Users\msi\Downloads\IRP Jupiter nb\Data\processed_graphs\phase5_benchmark_outputs\CC#N__CC(C)=O_summary.json
-160,CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2,"1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol","4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile",Acute_Oral_Toxicity,CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1,N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2,3.069333076477051,2.270249888962544,moderately toxic,aromatic C sp2 degree 2 1 H (atom 14); aromatic C sp2 degree 2 1 H (atom 9); aromatic N sp2 degree 2 (atom 18),ring C sp3 degree 4 (atom 14); aromatic C sp2 degree 2 1 H (atom 3); C sp degree 2 (atom 1),"Atom 14 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.","Atom 14 is a ring carbon, which may contribute to structural rigidity. Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 1 is a C atom that may contribute to the local chemical environment.","an aromatic hydrophobic ring; an aromatic hydrophobic ring; a nitrogen-containing aromatic ring (heterocycle, often bioactive)",a non-aromatic ring structure,"c → an aromatic hydrophobic ring; c → an aromatic hydrophobic ring; n → a nitrogen-containing aromatic ring (heterocycle, often bioactive)",C → a non-aromatic ring structure,"The model highlights an aromatic hydrophobic ring in 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and a non-aromatic ring structure in 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.",The prediction differs from the observed value and should be interpreted cautiously.,"
+160,CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2,"1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol","4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile",Acute_Oral_Toxicity,CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1,N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2,3.069333076477051,2.270249888962544,moderately toxic,aromatic C sp2 degree 2 1 H (atom 14); aromatic C sp2 degree 2 1 H (atom 9); aromatic N sp2 degree 2 (atom 18),ring C sp3 degree 4 (atom 14); aromatic C sp2 degree 2 1 H (atom 3); C sp degree 2 (atom 1),"Atom 14 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.","Atom 14 is a ring carbon, which may contribute to structural rigidity. Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 1 is a C atom that may contribute to the local chemical environment.","an aromatic hydrophobic ring; an aromatic hydrophobic ring; a nitrogen-containing aromatic ring (heterocycle, often bioactive)",a non-aromatic ring structure,"c → an aromatic hydrophobic ring; c → an aromatic hydrophobic ring; n → a nitrogen-containing aromatic ring (heterocycle, often bioactive)",C → a non-aromatic ring structure,"The model highlights aromatic regions in both 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.",The prediction differs from the observed value and should be interpreted cautiously.,"
 --- Chemical Interpretation ---
 
 PairKey: CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2
@@ -597,13 +531,7 @@ Drug B:
 
 4. Interaction-level interpretation
 
-The model highlights an aromatic hydrophobic ring in 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and a non-aromatic ring structure in 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile. This suggests that toxicity may arise from the interaction between hydrophobic structural motifs and heteroatom-driven reactive or polar regions.
-
-This indicates that toxicity is likely influenced by:
-- specific local structural regions rather than the whole molecule
-- interactions between hydrophobic and polar/reactive features
-- heteroatoms such as nitrogen or oxygen
-- aromatic or ring-based structures
+The model highlights aromatic regions in both 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
 
 5. Prediction reliability
 
