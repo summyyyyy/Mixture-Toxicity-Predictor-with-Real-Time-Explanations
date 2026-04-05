@@ -1,0 +1,48 @@
+{
+  "idx": 376,
+  "pairkey": "Nc1ccccc1||OCCOc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "aniline",
+  "drug_b_label": "2-phenoxyethanol",
+  "smiles_a": "Nc1ccccc1",
+  "smiles_b": "OCCOc1ccccc1",
+  "true_pLD50": 1.8450021743774414,
+  "pred_pLD50": 1.846862626054631,
+  "absolute_error": 0.001860451677189623,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 3 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 4)",
+    "aromatic C sp2 degree 2 1 H (atom 9)",
+    "aromatic C sp2 degree 2 1 H (atom 5)"
+  ],
+  "atom_reason_a": [
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_labels_b": [
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_a": [
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_b": [
+    "CCOc1ccccc1 \u2192 an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights aromatic regions in both aniline and 2-phenoxyethanol, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

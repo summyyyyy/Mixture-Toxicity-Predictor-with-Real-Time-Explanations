@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: C1COCCO1||CC1CO1
+Drug A: 1,4-dioxane
+Drug B: 2-methyloxirane
+
+Observed pLD50: 1.6152
+Predicted pLD50: 1.5296
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 3); ring C sp3 degree 2 2 H (atom 1)
+
+Drug B important atoms:
+- ring C sp3 degree 2 2 H (atom 2); ring C sp3 degree 3 1 H (atom 1); ring O sp3 degree 2 (atom 3)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 2 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure.
+
+3. Key structural fragments
+
+Drug A:
+- C1COCCO1 → a non-aromatic ring structure
+
+Drug B:
+- CC1CO1 → a non-aromatic ring structure
+
+4. Interaction-level interpretation
+
+The model highlights aromatic regions in both 1,4-dioxane and 2-methyloxirane, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

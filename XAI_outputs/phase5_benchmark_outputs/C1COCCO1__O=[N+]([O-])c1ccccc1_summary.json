@@ -7,44 +7,42 @@
   "smiles_a": "C1COCCO1",
   "smiles_b": "O=[N+]([O-])c1ccccc1",
   "true_pLD50": 2.1512582302093506,
-  "pred_pLD50": 2.087505997605941,
-  "absolute_error": 0.06375223260340945,
+  "pred_pLD50": 2.0470321935159492,
+  "absolute_error": 0.10422603669340136,
   "toxicity_level": "moderately toxic",
   "top_atoms_a": [
+    "ring C sp3 degree 2 2 H (atom 4)",
     "ring C sp3 degree 2 2 H (atom 3)",
-    "ring C sp3 degree 2 2 H (atom 1)",
-    "ring C sp3 degree 2 2 H (atom 4)"
+    "ring C sp3 degree 2 2 H (atom 1)"
   ],
   "top_atoms_b": [
-    "O sp2 degree 1 charge -1 (atom 2)",
-    "O sp2 degree 1 (atom 0)",
-    "N sp2 degree 3 charge +1 (atom 1)"
+    "N sp2 degree 3 charge +1 (atom 1)",
+    "aromatic C sp2 degree 3 (atom 3)",
+    "aromatic C sp2 degree 2 1 H (atom 8)"
   ],
   "atom_reason_a": [
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
     "Atom 3 is a ring carbon, which may contribute to structural rigidity.",
-    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
-    "Atom 4 is a ring carbon, which may contribute to structural rigidity."
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity."
   ],
   "atom_reason_b": [
-    "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
-    "Atom 0 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
-    "Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+    "Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "fragment_labels_a": [
-    "a non-aromatic ring structure",
     "a non-aromatic ring structure"
   ],
   "fragment_labels_b": [
-    "an oxygen-rich polar chain or functional group"
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_descriptions_a": [
-    "CC \u2192 a non-aromatic ring structure",
-    "CC \u2192 a non-aromatic ring structure"
+    "C1COCCO1 \u2192 a non-aromatic ring structure"
   ],
   "fragment_descriptions_b": [
-    "[O-] \u2192 an oxygen-rich polar chain or functional group"
+    "ccc([N+])cc \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
-  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "interaction_interpretation": "The model highlights aromatic regions in both 1,4-dioxane and nitrobenzene, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
-  "xai_method": "FeatureAblation"
+  "xai_method": "IntegratedGradients"
 }

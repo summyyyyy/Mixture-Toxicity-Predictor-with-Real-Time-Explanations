@@ -6,36 +6,36 @@ Drug A: 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol
 Drug B: 2-phenoxyethanol
 
 Observed pLD50: 1.4355
-Predicted pLD50: 1.5258
-Toxicity level: mildly toxic
+Predicted pLD50: 1.4830
+Toxicity level: very mildly toxic
 
 1. Model focus
 
 Drug A important atoms:
-- C sp3 degree 2 2 H (atom 21); C sp3 degree 2 2 H (atom 20); C sp3 degree 2 2 H (atom 15)
+- C sp3 degree 2 2 H (atom 10); C sp3 degree 2 2 H (atom 9); C sp3 degree 2 2 H (atom 8)
 
 Drug B important atoms:
-- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 6)
+- aromatic C sp2 degree 3 (atom 4); aromatic C sp2 degree 2 1 H (atom 9); aromatic C sp2 degree 2 1 H (atom 5)
 
 2. Chemical meaning of important atoms
 
 Drug A:
-- Atom 21 is a C atom that may contribute to the local chemical environment. Atom 20 is a C atom that may contribute to the local chemical environment. Atom 15 is a C atom that may contribute to the local chemical environment.
+- Atom 10 is a C atom that may contribute to the local chemical environment. Atom 9 is a C atom that may contribute to the local chemical environment. Atom 8 is a C atom that may contribute to the local chemical environment.
 
 Drug B:
-- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.
+- Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.
 
 3. Key structural fragments
 
 Drug A:
-- CC → a general structural fragment
+- CCCCCCCCCCCCCOCCOCCOCC → an oxygen-rich polar chain or functional group
 
 Drug B:
-- c → an aromatic hydrophobic ring; ccc → an aromatic hydrophobic ring
+- CCOc1ccccc1 → an aromatic hydrophobic ring
 
 4. Interaction-level interpretation
 
-The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and an aromatic hydrophobic ring in 2-phenoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
 
 5. Prediction reliability
 

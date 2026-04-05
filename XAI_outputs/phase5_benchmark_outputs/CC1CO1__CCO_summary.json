@@ -1,0 +1,48 @@
+{
+  "idx": 251,
+  "pairkey": "CC1CO1||CCO",
+  "source": "Smyth",
+  "drug_a_label": "2-methyloxirane",
+  "drug_b_label": "ethanol",
+  "smiles_a": "CC1CO1",
+  "smiles_b": "CCO",
+  "true_pLD50": 1.2203432321548462,
+  "pred_pLD50": 0.9820989737155132,
+  "absolute_error": 0.23824425843933295,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "ring C sp3 degree 3 1 H (atom 1)",
+    "ring C sp3 degree 2 2 H (atom 2)",
+    "ring O sp3 degree 2 (atom 3)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 2 2 H (atom 1)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "O sp3 degree 1 1 H (atom 2)"
+  ],
+  "atom_reason_a": [
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 2 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure."
+  ],
+  "atom_reason_b": [
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment."
+  ],
+  "fragment_labels_a": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_labels_b": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_a": [
+    "CC1CO1 \u2192 a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_b": [
+    "CCO \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

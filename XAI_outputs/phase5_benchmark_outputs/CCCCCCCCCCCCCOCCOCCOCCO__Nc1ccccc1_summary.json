@@ -1,0 +1,54 @@
+{
+  "idx": 274,
+  "pairkey": "CCCCCCCCCCCCCOCCOCCOCCO||Nc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "2-[2-(2-tridecoxyethoxy)ethoxy]ethanol",
+  "drug_b_label": "aniline",
+  "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
+  "smiles_b": "Nc1ccccc1",
+  "true_pLD50": 2.101597547531128,
+  "pred_pLD50": 1.8872599340605183,
+  "absolute_error": 0.21433761347060964,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 3)",
+    "C sp3 degree 2 2 H (atom 9)",
+    "C sp3 degree 2 2 H (atom 10)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 3 (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 3 is a C atom that may contribute to the local chemical environment.",
+    "Atom 9 is a C atom that may contribute to the local chemical environment.",
+    "Atom 10 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment",
+    "a general structural fragment",
+    "a general structural fragment",
+    "a general structural fragment"
+  ],
+  "fragment_labels_b": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_a": [
+    "CCCCCCCCCCCCC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol and a nitrogen-containing aromatic ring (heterocycle, often bioactive) in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

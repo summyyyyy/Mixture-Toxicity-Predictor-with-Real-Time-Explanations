@@ -1,0 +1,54 @@
+{
+  "idx": 272,
+  "pairkey": "CCCCCCCCCCCCCOCCOCCOCCO||ClC(Cl)(Cl)Cl",
+  "source": "Smyth",
+  "drug_a_label": "2-[2-(2-tridecoxyethoxy)ethoxy]ethanol",
+  "drug_b_label": "tetrachloromethane",
+  "smiles_a": "CCCCCCCCCCCCCOCCOCCOCCO",
+  "smiles_b": "ClC(Cl)(Cl)Cl",
+  "true_pLD50": 1.4180102348327637,
+  "pred_pLD50": 1.5941883962276537,
+  "absolute_error": 0.17617816139489006,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 3)",
+    "C sp3 degree 2 2 H (atom 4)",
+    "C sp3 degree 2 2 H (atom 8)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 4 (atom 1)",
+    "Cl sp3 degree 1 (atom 4)",
+    "Cl sp3 degree 1 (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 3 is a C atom that may contribute to the local chemical environment.",
+    "Atom 4 is a C atom that may contribute to the local chemical environment.",
+    "Atom 8 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",
+    "Atom 3 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment",
+    "a general structural fragment",
+    "a general structural fragment",
+    "a general structural fragment"
+  ],
+  "fragment_labels_b": [
+    "a general structural fragment"
+  ],
+  "fragment_descriptions_a": [
+    "CCCCCCCCCCCCC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "C \u2192 a general structural fragment"
+  ],
+  "interaction_interpretation": "The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

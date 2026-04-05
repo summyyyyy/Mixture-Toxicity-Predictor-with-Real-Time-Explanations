@@ -1,0 +1,48 @@
+{
+  "idx": 89,
+  "pairkey": "C=CC(=O)OCC||ClC(Cl)=C(Cl)Cl",
+  "source": "Smyth",
+  "drug_a_label": "ethyl prop-2-enoate",
+  "drug_b_label": "1,1,2,2-tetrachloroethene",
+  "smiles_a": "C=CC(=O)OCC",
+  "smiles_b": "ClC(Cl)=C(Cl)Cl",
+  "true_pLD50": 1.8681565523147583,
+  "pred_pLD50": 1.7886704705648022,
+  "absolute_error": 0.07948608174995608,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp2 degree 2 1 H (atom 1)",
+    "C sp3 degree 2 2 H (atom 5)",
+    "C sp2 degree 3 (atom 2)"
+  ],
+  "top_atoms_b": [
+    "C sp2 degree 3 (atom 3)",
+    "C sp2 degree 3 (atom 1)",
+    "Cl sp3 degree 1 (atom 5)"
+  ],
+  "atom_reason_a": [
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 5 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is a highly connected C atom, which may lie in a structurally important region."
+  ],
+  "atom_reason_b": [
+    "Atom 3 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity."
+  ],
+  "fragment_labels_a": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_labels_b": [
+    "a halogen-substituted region (affects lipophilicity and toxicity)"
+  ],
+  "fragment_descriptions_a": [
+    "C=CCOCC \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_b": [
+    "ClC(Cl)=C(Cl)Cl \u2192 a halogen-substituted region (affects lipophilicity and toxicity)"
+  ],
+  "interaction_interpretation": "The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

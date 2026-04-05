@@ -7,18 +7,18 @@
   "smiles_a": "C1COCCN1",
   "smiles_b": "C=CC#N",
   "true_pLD50": 2.1301522254943848,
-  "pred_pLD50": 2.196291052027982,
-  "absolute_error": 0.06613882653359715,
-  "toxicity_level": "moderately toxic",
+  "pred_pLD50": 2.7744616823218013,
+  "absolute_error": 0.6443094568274166,
+  "toxicity_level": "highly toxic",
   "top_atoms_a": [
     "ring N sp3 degree 2 1 H (atom 5)",
     "ring C sp3 degree 2 2 H (atom 4)",
     "ring C sp3 degree 2 2 H (atom 0)"
   ],
   "top_atoms_b": [
-    "C sp degree 2 (atom 2)",
+    "C sp2 degree 2 1 H (atom 1)",
     "C sp2 degree 1 2 H (atom 0)",
-    "C sp2 degree 2 1 H (atom 1)"
+    "N sp degree 1 (atom 3)"
   ],
   "atom_reason_a": [
     "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
@@ -26,23 +26,25 @@
     "Atom 0 is a ring carbon, which may contribute to structural rigidity."
   ],
   "atom_reason_b": [
-    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
     "Atom 0 is a C atom that may contribute to the local chemical environment.",
-    "Atom 1 is a C atom that may contribute to the local chemical environment."
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
   ],
   "fragment_labels_a": [
     "a nitrogen-containing heterocycle"
   ],
   "fragment_labels_b": [
-    "a general structural fragment"
+    "a general structural fragment",
+    "an amine-like or nitrogen-containing region"
   ],
   "fragment_descriptions_a": [
-    "N \u2192 a nitrogen-containing heterocycle"
+    "C1COCCN1 \u2192 a nitrogen-containing heterocycle"
   ],
   "fragment_descriptions_b": [
-    "C \u2192 a general structural fragment"
+    "C=C \u2192 a general structural fragment",
+    "N \u2192 an amine-like or nitrogen-containing region"
   ],
   "interaction_interpretation": "The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in prop-2-enenitrile, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
-  "prediction_reliability": "The prediction closely matches the observed toxicity.",
-  "xai_method": "FeatureAblation"
+  "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
+  "xai_method": "IntegratedGradients"
 }

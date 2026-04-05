@@ -1,0 +1,50 @@
+{
+  "idx": 133,
+  "pairkey": "CC#N||OCCNCCO",
+  "source": "Smyth",
+  "drug_a_label": "acetonitrile",
+  "drug_b_label": "2-(2-hydroxyethylamino)ethanol",
+  "smiles_a": "CC#N",
+  "smiles_b": "OCCNCCO",
+  "true_pLD50": 1.5953806638717651,
+  "pred_pLD50": 1.6721762878866449,
+  "absolute_error": 0.07679562401487972,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 1 3 H (atom 0)",
+    "N sp degree 1 (atom 2)",
+    "C sp degree 2 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 2 2 H (atom 4)",
+    "C sp3 degree 2 2 H (atom 2)",
+    "N sp3 degree 2 1 H (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment",
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_labels_b": [
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_a": [
+    "C \u2192 a general structural fragment",
+    "N \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_b": [
+    "CCNCC \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in acetonitrile and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: C=CC#N||Nc1ccccc1
+Drug A: prop-2-enenitrile
+Drug B: aniline
+
+Observed pLD50: 2.4033
+Predicted pLD50: 2.5678
+Toxicity level: highly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp2 degree 2 1 H (atom 1); C sp2 degree 1 2 H (atom 0); N sp degree 1 (atom 3)
+
+Drug B important atoms:
+- aromatic C sp2 degree 3 (atom 1); aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 2)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 1 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
+
+Drug B:
+- Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+3. Key structural fragments
+
+Drug A:
+- C=C → a general structural fragment
+
+Drug B:
+- Nc1ccccc1 → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+4. Interaction-level interpretation
+
+The model highlights a general structural fragment in prop-2-enenitrile and a nitrogen-containing aromatic ring (heterocycle, often bioactive) in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction is reasonably close to the observed value.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

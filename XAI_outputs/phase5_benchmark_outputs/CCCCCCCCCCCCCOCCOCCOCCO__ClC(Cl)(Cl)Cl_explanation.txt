@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CCCCCCCCCCCCCOCCOCCOCCO||ClC(Cl)(Cl)Cl
+Drug A: 2-[2-(2-tridecoxyethoxy)ethoxy]ethanol
+Drug B: tetrachloromethane
+
+Observed pLD50: 1.4180
+Predicted pLD50: 1.5942
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 2 2 H (atom 3); C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 8)
+
+Drug B important atoms:
+- C sp3 degree 4 (atom 1); Cl sp3 degree 1 (atom 4); Cl sp3 degree 1 (atom 3)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 3 is a C atom that may contribute to the local chemical environment. Atom 4 is a C atom that may contribute to the local chemical environment. Atom 8 is a C atom that may contribute to the local chemical environment.
+
+Drug B:
+- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity. Atom 3 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.
+
+3. Key structural fragments
+
+Drug A:
+- CCCCCCCCCCCCC → a general structural fragment; CC → a general structural fragment; CC → a general structural fragment; CC → a general structural fragment
+
+Drug B:
+- C → a general structural fragment
+
+4. Interaction-level interpretation
+
+The model highlights general structural regions in both molecules, suggesting that toxicity arises from distributed structural contributions rather than specific functional groups.
+
+5. Prediction reliability
+
+The prediction is reasonably close to the observed value.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

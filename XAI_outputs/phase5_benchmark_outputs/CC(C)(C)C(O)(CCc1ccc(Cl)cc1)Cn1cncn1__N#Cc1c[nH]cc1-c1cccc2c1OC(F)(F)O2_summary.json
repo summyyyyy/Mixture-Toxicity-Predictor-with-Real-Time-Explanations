@@ -7,46 +7,42 @@
   "smiles_a": "CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1",
   "smiles_b": "N#Cc1c[nH]cc1-c1cccc2c1OC(F)(F)O2",
   "true_pLD50": 3.069333076477051,
-  "pred_pLD50": 2.270249888962544,
-  "absolute_error": 0.7990831875145066,
-  "toxicity_level": "moderately toxic",
+  "pred_pLD50": 2.7611414334122326,
+  "absolute_error": 0.30819164306481817,
+  "toxicity_level": "highly toxic",
   "top_atoms_a": [
-    "aromatic C sp2 degree 2 1 H (atom 14)",
-    "aromatic C sp2 degree 2 1 H (atom 9)",
-    "aromatic N sp2 degree 2 (atom 18)"
+    "aromatic N sp2 degree 3 (atom 16)",
+    "C sp3 degree 2 2 H (atom 15)",
+    "aromatic C sp2 degree 2 1 H (atom 17)"
   ],
   "top_atoms_b": [
+    "ring O sp2 degree 2 (atom 13)",
     "ring C sp3 degree 4 (atom 14)",
-    "aromatic C sp2 degree 2 1 H (atom 3)",
-    "C sp degree 2 (atom 1)"
+    "aromatic C sp2 degree 3 (atom 7)"
   ],
   "atom_reason_a": [
-    "Atom 14 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 18 is a ring nitrogen, which may influence polarity, basicity, or binding behavior."
+    "Atom 16 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 15 is a C atom that may contribute to the local chemical environment.",
+    "Atom 17 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "atom_reason_b": [
+    "Atom 13 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure.",
     "Atom 14 is a ring carbon, which may contribute to structural rigidity.",
-    "Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 1 is a C atom that may contribute to the local chemical environment."
+    "Atom 7 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "fragment_labels_a": [
-    "an aromatic hydrophobic ring",
-    "an aromatic hydrophobic ring",
     "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_labels_b": [
-    "a non-aromatic ring structure"
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_descriptions_a": [
-    "c \u2192 an aromatic hydrophobic ring",
-    "c \u2192 an aromatic hydrophobic ring",
-    "n \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+    "cc(CCCCn1cncn1)c \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_descriptions_b": [
-    "C \u2192 a non-aromatic ring structure"
+    "cc(-c(c)c1cOCO1)c[nH] \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "interaction_interpretation": "The model highlights aromatic regions in both 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol and 4-(2,2-difluoro-1,3-benzodioxol-4-yl)-1H-pyrrole-3-carbonitrile, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
-  "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
-  "xai_method": "FeatureAblation"
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
 }

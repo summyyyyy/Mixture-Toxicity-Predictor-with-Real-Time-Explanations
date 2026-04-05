@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CCc1cnc(C2=NC(C)(C(C)C)C(=O)N2)c(C(=O)O)c1||COCC(C)N(C(=O)CCl)c1c(C)csc1C
+Drug A: 5-ethyl-2-(4-methyl-5-oxo-4-propan-2-yl-1H-imidazol-2-yl)pyridine-3-carboxylic acid
+Drug B: 2-chloro-N-(2,4-dimethylthiophen-3-yl)-N-(1-methoxypropan-2-yl)acetamide
+
+Observed pLD50: 2.3515
+Predicted pLD50: 2.4819
+Toxicity level: moderately toxic
+
+1. Model focus
+
+Drug A important atoms:
+- ring N sp2 degree 2 (atom 7); aromatic C sp2 degree 3 (atom 16); ring N sp2 degree 2 1 H (atom 15)
+
+Drug B important atoms:
+- N sp2 degree 3 (atom 5); aromatic S sp2 degree 2 (atom 14); aromatic C sp2 degree 3 (atom 10)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 7 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 16 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 15 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.
+
+Drug B:
+- Atom 5 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 14 is a sulfur atom, which may contribute to reactivity and electronic effects. Atom 10 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+3. Key structural fragments
+
+Drug A:
+- Cc1cc(C)cnc1C1=NC(C)CN1 → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+Drug B:
+- Nccs → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+4. Interaction-level interpretation
+
+The model highlights aromatic regions in both 5-ethyl-2-(4-methyl-5-oxo-4-propan-2-yl-1H-imidazol-2-yl)pyridine-3-carboxylic acid and 2-chloro-N-(2,4-dimethylthiophen-3-yl)-N-(1-methoxypropan-2-yl)acetamide, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

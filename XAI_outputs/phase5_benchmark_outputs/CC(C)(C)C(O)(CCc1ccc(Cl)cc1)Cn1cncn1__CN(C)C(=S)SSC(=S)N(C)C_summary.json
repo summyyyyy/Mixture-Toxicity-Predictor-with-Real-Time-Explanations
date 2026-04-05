@@ -1,0 +1,48 @@
+{
+  "idx": 159,
+  "pairkey": "CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||CN(C)C(=S)SSC(=S)N(C)C",
+  "source": "Acute_Oral_Toxicity",
+  "drug_a_label": "1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol",
+  "drug_b_label": "dimethylcarbamothioylsulfanyl N,N-dimethylcarbamodithioate",
+  "smiles_a": "CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1",
+  "smiles_b": "CN(C)C(=S)SSC(=S)N(C)C",
+  "true_pLD50": 2.5480825901031494,
+  "pred_pLD50": 2.399061342133234,
+  "absolute_error": 0.14902124796991556,
+  "toxicity_level": "moderately toxic",
+  "top_atoms_a": [
+    "aromatic N sp2 degree 3 (atom 16)",
+    "aromatic N sp2 degree 2 (atom 20)",
+    "C sp3 degree 4 (atom 4)"
+  ],
+  "top_atoms_b": [
+    "S sp3 degree 2 (atom 5)",
+    "S sp3 degree 2 (atom 6)",
+    "N sp2 degree 3 (atom 9)"
+  ],
+  "atom_reason_a": [
+    "Atom 16 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 20 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 4 is a highly connected C atom, which may lie in a structurally important region."
+  ],
+  "atom_reason_b": [
+    "Atom 5 is a sulfur atom, which may contribute to reactivity and electronic effects.",
+    "Atom 6 is a sulfur atom, which may contribute to reactivity and electronic effects.",
+    "Atom 9 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_labels_b": [
+    "an amine-like or nitrogen-containing region"
+  ],
+  "fragment_descriptions_a": [
+    "CCn(n)cn \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_b": [
+    "NCSSCN \u2192 an amine-like or nitrogen-containing region"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

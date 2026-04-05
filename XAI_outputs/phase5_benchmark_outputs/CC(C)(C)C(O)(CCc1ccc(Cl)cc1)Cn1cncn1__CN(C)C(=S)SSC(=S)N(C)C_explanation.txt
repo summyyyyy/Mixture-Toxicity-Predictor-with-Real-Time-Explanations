@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(C)(C)C(O)(CCc1ccc(Cl)cc1)Cn1cncn1||CN(C)C(=S)SSC(=S)N(C)C
+Drug A: 1-(4-chlorophenyl)-4,4-dimethyl-3-(1,2,4-triazol-1-ylmethyl)pentan-3-ol
+Drug B: dimethylcarbamothioylsulfanyl N,N-dimethylcarbamodithioate
+
+Observed pLD50: 2.5481
+Predicted pLD50: 2.3991
+Toxicity level: moderately toxic
+
+1. Model focus
+
+Drug A important atoms:
+- aromatic N sp2 degree 3 (atom 16); aromatic N sp2 degree 2 (atom 20); C sp3 degree 4 (atom 4)
+
+Drug B important atoms:
+- S sp3 degree 2 (atom 5); S sp3 degree 2 (atom 6); N sp2 degree 3 (atom 9)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 16 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 20 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 4 is a highly connected C atom, which may lie in a structurally important region.
+
+Drug B:
+- Atom 5 is a sulfur atom, which may contribute to reactivity and electronic effects. Atom 6 is a sulfur atom, which may contribute to reactivity and electronic effects. Atom 9 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
+
+3. Key structural fragments
+
+Drug A:
+- CCn(n)cn → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+Drug B:
+- NCSSCN → an amine-like or nitrogen-containing region
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

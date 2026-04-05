@@ -1,0 +1,48 @@
+{
+  "idx": 7,
+  "pairkey": "C1COCCN1||CC(=O)c1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "morpholine",
+  "drug_b_label": "1-phenylethanone",
+  "smiles_a": "C1COCCN1",
+  "smiles_b": "CC(=O)c1ccccc1",
+  "true_pLD50": 1.7201765775680542,
+  "pred_pLD50": 1.7432487625440751,
+  "absolute_error": 0.023072184976020926,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "ring N sp3 degree 2 1 H (atom 5)",
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 0)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 3)",
+    "aromatic C sp2 degree 2 1 H (atom 8)",
+    "aromatic C sp2 degree 2 1 H (atom 4)"
+  ],
+  "atom_reason_a": [
+    "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 0 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing heterocycle"
+  ],
+  "fragment_labels_b": [
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_a": [
+    "C1COCCN1 \u2192 a nitrogen-containing heterocycle"
+  ],
+  "fragment_descriptions_b": [
+    "CCc1ccccc1 \u2192 an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

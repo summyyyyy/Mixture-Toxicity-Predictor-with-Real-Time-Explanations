@@ -1,0 +1,48 @@
+{
+  "idx": 3,
+  "pairkey": "C1COCCN1||C1COCCO1",
+  "source": "Smyth",
+  "drug_a_label": "morpholine",
+  "drug_b_label": "1,4-dioxane",
+  "smiles_a": "C1COCCN1",
+  "smiles_b": "C1COCCO1",
+  "true_pLD50": 1.3593634366989136,
+  "pred_pLD50": 1.5613514683692824,
+  "absolute_error": 0.20198803167036883,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "ring N sp3 degree 2 1 H (atom 5)",
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 0)"
+  ],
+  "top_atoms_b": [
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 3)",
+    "ring C sp3 degree 2 2 H (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 0 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing heterocycle"
+  ],
+  "fragment_labels_b": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_a": [
+    "CCNCC \u2192 a nitrogen-containing heterocycle"
+  ],
+  "fragment_descriptions_b": [
+    "C1COCCO1 \u2192 a non-aromatic ring structure"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

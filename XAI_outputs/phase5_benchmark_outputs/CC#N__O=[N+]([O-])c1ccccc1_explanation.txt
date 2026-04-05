@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC#N||O=[N+]([O-])c1ccccc1
+Drug A: acetonitrile
+Drug B: nitrobenzene
+
+Observed pLD50: 1.8726
+Predicted pLD50: 1.9551
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 1 3 H (atom 0); N sp degree 1 (atom 2); C sp degree 2 (atom 1)
+
+Drug B important atoms:
+- aromatic C sp2 degree 3 (atom 3); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 4)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 0 is a C atom that may contribute to the local chemical environment. Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is a C atom that may contribute to the local chemical environment.
+
+Drug B:
+- Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+3. Key structural fragments
+
+Drug A:
+- C → a general structural fragment
+
+Drug B:
+- [N+]c1ccccc1 → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+4. Interaction-level interpretation
+
+The model highlights a general structural fragment in acetonitrile and a nitrogen-containing aromatic ring (heterocycle, often bioactive) in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

@@ -1,0 +1,48 @@
+{
+  "idx": 21,
+  "pairkey": "C1COCCN1||Nc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "morpholine",
+  "drug_b_label": "aniline",
+  "smiles_a": "C1COCCN1",
+  "smiles_b": "Nc1ccccc1",
+  "true_pLD50": 2.0746941566467285,
+  "pred_pLD50": 1.7527161830635565,
+  "absolute_error": 0.32197797358317204,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "ring N sp3 degree 2 1 H (atom 5)",
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 0)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 3 (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 0 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a nitrogen-containing heterocycle"
+  ],
+  "fragment_labels_b": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_a": [
+    "C1COCCN1 \u2192 a nitrogen-containing heterocycle"
+  ],
+  "fragment_descriptions_b": [
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

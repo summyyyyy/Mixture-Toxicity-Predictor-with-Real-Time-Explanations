@@ -6,39 +6,39 @@ Drug A: aniline
 Drug B: nitrobenzene
 
 Observed pLD50: 2.3400
-Predicted pLD50: 2.0404
-Toxicity level: moderately toxic
+Predicted pLD50: 1.9839
+Toxicity level: mildly toxic
 
 1. Model focus
 
 Drug A important atoms:
-- N sp2 degree 1 2 H (atom 0); aromatic C sp2 degree 3 (atom 1); aromatic C sp2 degree 2 1 H (atom 5)
+- aromatic C sp2 degree 2 1 H (atom 6); aromatic C sp2 degree 2 1 H (atom 2); aromatic C sp2 degree 3 (atom 1)
 
 Drug B important atoms:
-- N sp2 degree 3 charge +1 (atom 1); O sp2 degree 1 charge -1 (atom 2); aromatic C sp2 degree 2 1 H (atom 6)
+- aromatic C sp2 degree 3 (atom 3); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 4)
 
 2. Chemical meaning of important atoms
 
 Drug A:
-- Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system.
+- Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system.
 
 Drug B:
-- Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment. Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.
+- Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.
 
 3. Key structural fragments
 
 Drug A:
-- N → an amine-like or nitrogen-containing region
+- Nc1ccccc1 → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
 
 Drug B:
-- [N+][O-] → an oxygen-rich polar chain or functional group; ccc → an aromatic hydrophobic ring
+- ccc([N+])cc → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
 
 4. Interaction-level interpretation
 
-The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+The model highlights aromatic regions in both aniline and nitrobenzene, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
 
 5. Prediction reliability
 
-The prediction is reasonably close to the observed value.
+The prediction differs from the observed value and should be interpreted cautiously.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

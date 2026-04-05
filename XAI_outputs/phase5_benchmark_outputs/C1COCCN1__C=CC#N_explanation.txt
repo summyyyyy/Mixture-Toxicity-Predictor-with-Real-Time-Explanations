@@ -6,8 +6,8 @@ Drug A: morpholine
 Drug B: prop-2-enenitrile
 
 Observed pLD50: 2.1302
-Predicted pLD50: 2.1963
-Toxicity level: moderately toxic
+Predicted pLD50: 2.7745
+Toxicity level: highly toxic
 
 1. Model focus
 
@@ -15,7 +15,7 @@ Drug A important atoms:
 - ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 0)
 
 Drug B important atoms:
-- C sp degree 2 (atom 2); C sp2 degree 1 2 H (atom 0); C sp2 degree 2 1 H (atom 1)
+- C sp2 degree 2 1 H (atom 1); C sp2 degree 1 2 H (atom 0); N sp degree 1 (atom 3)
 
 2. Chemical meaning of important atoms
 
@@ -23,15 +23,15 @@ Drug A:
 - Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 0 is a ring carbon, which may contribute to structural rigidity.
 
 Drug B:
-- Atom 2 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.
+- Atom 1 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
 
 3. Key structural fragments
 
 Drug A:
-- N → a nitrogen-containing heterocycle
+- C1COCCN1 → a nitrogen-containing heterocycle
 
 Drug B:
-- C → a general structural fragment
+- C=C → a general structural fragment; N → an amine-like or nitrogen-containing region
 
 4. Interaction-level interpretation
 
@@ -39,6 +39,6 @@ The model highlights a nitrogen-containing heterocycle in morpholine and a gener
 
 5. Prediction reliability
 
-The prediction closely matches the observed toxicity.
+The prediction differs from the observed value and should be interpreted cautiously.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

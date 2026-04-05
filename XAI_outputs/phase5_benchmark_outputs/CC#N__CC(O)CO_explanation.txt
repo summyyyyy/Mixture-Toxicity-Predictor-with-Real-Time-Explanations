@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC#N||CC(O)CO
+Drug A: acetonitrile
+Drug B: propane-1,2-diol
+
+Observed pLD50: 0.4043
+Predicted pLD50: 0.9846
+Toxicity level: very mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 1 3 H (atom 0); N sp degree 1 (atom 2); C sp degree 2 (atom 1)
+
+Drug B important atoms:
+- C sp3 degree 3 1 H (atom 1); C sp3 degree 2 2 H (atom 3); C sp3 degree 1 3 H (atom 0)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 0 is a C atom that may contribute to the local chemical environment. Atom 2 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 1 is a C atom that may contribute to the local chemical environment.
+
+Drug B:
+- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 3 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment.
+
+3. Key structural fragments
+
+Drug A:
+- C → a general structural fragment; N → an amine-like or nitrogen-containing region
+
+Drug B:
+- CC(O)CO → an oxygen-rich polar chain or functional group
+
+4. Interaction-level interpretation
+
+The model highlights a general structural fragment in acetonitrile and an oxygen-rich polar chain or functional group in propane-1,2-diol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction differs from the observed value and should be interpreted cautiously.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

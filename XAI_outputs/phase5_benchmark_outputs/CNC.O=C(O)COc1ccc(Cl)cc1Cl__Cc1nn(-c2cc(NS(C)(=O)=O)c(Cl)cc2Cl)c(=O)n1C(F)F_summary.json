@@ -1,0 +1,50 @@
+{
+  "idx": 337,
+  "pairkey": "CNC.O=C(O)COc1ccc(Cl)cc1Cl||Cc1nn(-c2cc(NS(C)(=O)=O)c(Cl)cc2Cl)c(=O)n1C(F)F",
+  "source": "Acute_Oral_Toxicity",
+  "drug_a_label": "2-(2,4-dichlorophenoxy)acetic acid;N-methylmethanamine",
+  "drug_b_label": "N-[2,4-dichloro-5-[4-(difluoromethyl)-3-methyl-5-oxo-1,2,4-triazol-1-yl]phenyl]methanesulfonamide",
+  "smiles_a": "CNC.O=C(O)COc1ccc(Cl)cc1Cl",
+  "smiles_b": "Cc1nn(-c2cc(NS(C)(=O)=O)c(Cl)cc2Cl)c(=O)n1C(F)F",
+  "true_pLD50": 2.71956205368042,
+  "pred_pLD50": 2.8325026174352965,
+  "absolute_error": 0.1129405637548766,
+  "toxicity_level": "highly toxic",
+  "top_atoms_a": [
+    "aromatic C sp2 degree 2 1 H (atom 13)",
+    "aromatic C sp2 degree 3 (atom 14)",
+    "aromatic C sp2 degree 3 (atom 8)"
+  ],
+  "top_atoms_b": [
+    "aromatic N sp2 degree 3 (atom 19)",
+    "aromatic N sp2 degree 3 (atom 3)",
+    "S sp3 degree 4 (atom 8)"
+  ],
+  "atom_reason_a": [
+    "Atom 13 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 14 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 19 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 3 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
+    "Atom 8 is a sulfur atom, which may contribute to reactivity and electronic effects."
+  ],
+  "fragment_labels_a": [
+    "a halogenated aromatic region (hydrophobic and bioactive)"
+  ],
+  "fragment_labels_b": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)",
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_a": [
+    "OCCOc1ccc(Cl)cc1Cl \u2192 a halogenated aromatic region (hydrophobic and bioactive)"
+  ],
+  "fragment_descriptions_b": [
+    "c-n(n)cn \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)",
+    "cNS \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "interaction_interpretation": "The model highlights aromatic regions in both 2-(2,4-dichlorophenoxy)acetic acid;N-methylmethanamine and N-[2,4-dichloro-5-[4-(difluoromethyl)-3-methyl-5-oxo-1,2,4-triazol-1-yl]phenyl]methanesulfonamide, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

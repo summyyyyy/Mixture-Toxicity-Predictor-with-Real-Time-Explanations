@@ -1,0 +1,48 @@
+{
+  "idx": 68,
+  "pairkey": "C=CC#N||Nc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "prop-2-enenitrile",
+  "drug_b_label": "aniline",
+  "smiles_a": "C=CC#N",
+  "smiles_b": "Nc1ccccc1",
+  "true_pLD50": 2.4032633304595947,
+  "pred_pLD50": 2.567825671980346,
+  "absolute_error": 0.16456234152075133,
+  "toxicity_level": "highly toxic",
+  "top_atoms_a": [
+    "C sp2 degree 2 1 H (atom 1)",
+    "C sp2 degree 1 2 H (atom 0)",
+    "N sp degree 1 (atom 3)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 1)",
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)"
+  ],
+  "atom_reason_a": [
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "atom_reason_b": [
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment"
+  ],
+  "fragment_labels_b": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_a": [
+    "C=C \u2192 a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in prop-2-enenitrile and a nitrogen-containing aromatic ring (heterocycle, often bioactive) in aniline, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction is reasonably close to the observed value.",
+  "xai_method": "IntegratedGradients"
+}

@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(=O)c1ccccc1||ClC(Cl)(Cl)Cl
+Drug A: 1-phenylethanone
+Drug B: tetrachloromethane
+
+Observed pLD50: 1.9264
+Predicted pLD50: 1.6348
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- aromatic C sp2 degree 3 (atom 3); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 4)
+
+Drug B important atoms:
+- C sp3 degree 4 (atom 1); Cl sp3 degree 1 (atom 4); Cl sp3 degree 1 (atom 3)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+Drug B:
+- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity. Atom 3 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.
+
+3. Key structural fragments
+
+Drug A:
+- CCc1ccccc1 → an aromatic hydrophobic ring
+
+Drug B:
+- C → a general structural fragment
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic hydrophobic ring in 1-phenylethanone and a general structural fragment in tetrachloromethane, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction is reasonably close to the observed value.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

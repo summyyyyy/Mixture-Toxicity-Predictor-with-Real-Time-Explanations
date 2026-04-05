@@ -7,42 +7,42 @@
   "smiles_a": "C1COCCN1",
   "smiles_b": "CCOC(C)=O",
   "true_pLD50": 1.393189549446106,
-  "pred_pLD50": 1.4102947561595998,
-  "absolute_error": 0.017105206713493804,
+  "pred_pLD50": 1.47649192914872,
+  "absolute_error": 0.083302379702614,
   "toxicity_level": "very mildly toxic",
   "top_atoms_a": [
     "ring N sp3 degree 2 1 H (atom 5)",
-    "ring C sp3 degree 2 2 H (atom 1)",
-    "ring C sp3 degree 2 2 H (atom 3)"
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 0)"
   ],
   "top_atoms_b": [
-    "C sp3 degree 1 3 H (atom 4)",
     "O sp2 degree 2 (atom 2)",
-    "C sp3 degree 1 3 H (atom 0)"
+    "C sp3 degree 1 3 H (atom 4)",
+    "C sp3 degree 2 2 H (atom 1)"
   ],
   "atom_reason_a": [
     "Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior.",
-    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
-    "Atom 3 is a ring carbon, which may contribute to structural rigidity."
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 0 is a ring carbon, which may contribute to structural rigidity."
   ],
   "atom_reason_b": [
-    "Atom 4 is a C atom that may contribute to the local chemical environment.",
     "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
-    "Atom 0 is a C atom that may contribute to the local chemical environment."
+    "Atom 4 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
   ],
   "fragment_labels_a": [
     "a nitrogen-containing heterocycle"
   ],
   "fragment_labels_b": [
-    "a general structural fragment"
+    "an oxygen-rich polar chain or functional group"
   ],
   "fragment_descriptions_a": [
-    "N \u2192 a nitrogen-containing heterocycle"
+    "C1COCCN1 \u2192 a nitrogen-containing heterocycle"
   ],
   "fragment_descriptions_b": [
-    "C \u2192 a general structural fragment"
+    "CCOC(C)=O \u2192 an oxygen-rich polar chain or functional group"
   ],
-  "interaction_interpretation": "The model highlights a nitrogen-containing heterocycle in morpholine and a general structural fragment in ethyl acetate, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "interaction_interpretation": "The model identifies a heterocyclic structure in one molecule and a polar functional group in the other, indicating that polarity-driven interactions and heteroatom reactivity may influence the combined toxic effect.",
   "prediction_reliability": "The prediction closely matches the observed toxicity.",
-  "xai_method": "FeatureAblation"
+  "xai_method": "IntegratedGradients"
 }

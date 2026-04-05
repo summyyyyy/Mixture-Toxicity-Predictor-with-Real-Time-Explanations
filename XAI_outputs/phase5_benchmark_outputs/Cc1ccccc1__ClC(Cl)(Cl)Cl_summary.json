@@ -1,0 +1,48 @@
+{
+  "idx": 348,
+  "pairkey": "Cc1ccccc1||ClC(Cl)(Cl)Cl",
+  "source": "Smyth",
+  "drug_a_label": "toluene",
+  "drug_b_label": "tetrachloromethane",
+  "smiles_a": "Cc1ccccc1",
+  "smiles_b": "ClC(Cl)(Cl)Cl",
+  "true_pLD50": 1.533634066581726,
+  "pred_pLD50": 1.4469391205423696,
+  "absolute_error": 0.08669494603935646,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 2 1 H (atom 5)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 4 (atom 1)",
+    "Cl sp3 degree 1 (atom 4)",
+    "Cl sp3 degree 1 (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "atom_reason_b": [
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",
+    "Atom 3 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity."
+  ],
+  "fragment_labels_a": [
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_labels_b": [
+    "a general structural fragment"
+  ],
+  "fragment_descriptions_a": [
+    "Cc1ccccc1 \u2192 an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_b": [
+    "C \u2192 a general structural fragment"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic hydrophobic ring in toluene and a general structural fragment in tetrachloromethane, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(O)COC(C)COC(C)C||ClC(Cl)(Cl)Cl
+Drug A: 1-(1-propan-2-yloxypropan-2-yloxy)propan-2-ol
+Drug B: tetrachloromethane
+
+Observed pLD50: 1.3193
+Predicted pLD50: 1.3205
+Toxicity level: very mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 2 2 H (atom 7); C sp3 degree 2 2 H (atom 3); C sp3 degree 3 1 H (atom 5)
+
+Drug B important atoms:
+- C sp3 degree 4 (atom 1); Cl sp3 degree 1 (atom 4); Cl sp3 degree 1 (atom 3)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 7 is a C atom that may contribute to the local chemical environment. Atom 3 is a C atom that may contribute to the local chemical environment. Atom 5 is a highly connected C atom, which may lie in a structurally important region.
+
+Drug B:
+- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity. Atom 3 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.
+
+3. Key structural fragments
+
+Drug A:
+- CCCOC(C)COC(C)C → an oxygen-rich polar chain or functional group
+
+Drug B:
+- C → a general structural fragment
+
+4. Interaction-level interpretation
+
+The model highlights an oxygen-rich polar chain or functional group in 1-(1-propan-2-yloxypropan-2-yloxy)propan-2-ol and a general structural fragment in tetrachloromethane, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

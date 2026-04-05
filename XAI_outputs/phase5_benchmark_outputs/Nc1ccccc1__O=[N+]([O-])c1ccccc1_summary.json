@@ -7,44 +7,42 @@
   "smiles_a": "Nc1ccccc1",
   "smiles_b": "O=[N+]([O-])c1ccccc1",
   "true_pLD50": 2.3400275707244873,
-  "pred_pLD50": 2.0404205049065003,
-  "absolute_error": 0.299607065817987,
-  "toxicity_level": "moderately toxic",
+  "pred_pLD50": 1.9838656293250647,
+  "absolute_error": 0.3561619413994226,
+  "toxicity_level": "mildly toxic",
   "top_atoms_a": [
-    "N sp2 degree 1 2 H (atom 0)",
-    "aromatic C sp2 degree 3 (atom 1)",
-    "aromatic C sp2 degree 2 1 H (atom 5)"
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 3 (atom 1)"
   ],
   "top_atoms_b": [
-    "N sp2 degree 3 charge +1 (atom 1)",
-    "O sp2 degree 1 charge -1 (atom 2)",
-    "aromatic C sp2 degree 2 1 H (atom 6)"
+    "aromatic C sp2 degree 3 (atom 3)",
+    "aromatic C sp2 degree 2 1 H (atom 8)",
+    "aromatic C sp2 degree 2 1 H (atom 4)"
   ],
   "atom_reason_a": [
-    "Atom 0 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
-    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system.",
-    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system."
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 1 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "atom_reason_b": [
-    "Atom 1 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
-    "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
-    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system."
+    "Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system."
   ],
   "fragment_labels_a": [
-    "an amine-like or nitrogen-containing region"
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_labels_b": [
-    "an oxygen-rich polar chain or functional group",
-    "an aromatic hydrophobic ring"
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_descriptions_a": [
-    "N \u2192 an amine-like or nitrogen-containing region"
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
   "fragment_descriptions_b": [
-    "[N+][O-] \u2192 an oxygen-rich polar chain or functional group",
-    "ccc \u2192 an aromatic hydrophobic ring"
+    "ccc([N+])cc \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
   ],
-  "interaction_interpretation": "The model highlights an amine-like or nitrogen-containing region in aniline and an oxygen-rich polar chain or functional group in nitrobenzene, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
-  "prediction_reliability": "The prediction is reasonably close to the observed value.",
-  "xai_method": "FeatureAblation"
+  "interaction_interpretation": "The model highlights aromatic regions in both aniline and nitrobenzene, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
+  "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
+  "xai_method": "IntegratedGradients"
 }

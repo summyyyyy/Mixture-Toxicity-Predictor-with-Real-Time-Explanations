@@ -1,0 +1,48 @@
+{
+  "idx": 71,
+  "pairkey": "C=CC#N||OCCO",
+  "source": "Smyth",
+  "drug_a_label": "prop-2-enenitrile",
+  "drug_b_label": "ethane-1,2-diol",
+  "smiles_a": "C=CC#N",
+  "smiles_b": "OCCO",
+  "true_pLD50": 2.3732874393463135,
+  "pred_pLD50": 2.425921706962757,
+  "absolute_error": 0.05263426761644352,
+  "toxicity_level": "moderately toxic",
+  "top_atoms_a": [
+    "C sp2 degree 2 1 H (atom 1)",
+    "C sp2 degree 1 2 H (atom 0)",
+    "N sp degree 1 (atom 3)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 2 2 H (atom 2)",
+    "C sp3 degree 2 2 H (atom 1)",
+    "O sp3 degree 1 1 H (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment."
+  ],
+  "fragment_labels_a": [
+    "a general structural fragment"
+  ],
+  "fragment_labels_b": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_a": [
+    "C=C \u2192 a general structural fragment"
+  ],
+  "fragment_descriptions_b": [
+    "OCCO \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "The model highlights a general structural fragment in prop-2-enenitrile and an oxygen-rich polar chain or functional group in ethane-1,2-diol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

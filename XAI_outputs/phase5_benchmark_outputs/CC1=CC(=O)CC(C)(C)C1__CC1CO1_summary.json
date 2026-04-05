@@ -1,0 +1,48 @@
+{
+  "idx": 233,
+  "pairkey": "CC1=CC(=O)CC(C)(C)C1||CC1CO1",
+  "source": "Smyth",
+  "drug_a_label": "3,5,5-trimethylcyclohex-2-en-1-one",
+  "drug_b_label": "2-methyloxirane",
+  "smiles_a": "CC1=CC(=O)CC(C)(C)C1",
+  "smiles_b": "CC1CO1",
+  "true_pLD50": 1.6111094951629639,
+  "pred_pLD50": 1.5699304228227837,
+  "absolute_error": 0.041179072340180145,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "ring C sp3 degree 2 2 H (atom 9)",
+    "ring C sp3 degree 4 (atom 6)",
+    "ring C sp3 degree 2 2 H (atom 5)"
+  ],
+  "top_atoms_b": [
+    "ring C sp3 degree 2 2 H (atom 2)",
+    "ring C sp3 degree 3 1 H (atom 1)",
+    "ring O sp3 degree 2 (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 9 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 6 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 5 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure."
+  ],
+  "fragment_labels_a": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_labels_b": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_a": [
+    "CC1=CCCC(C)(C)C1 \u2192 a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_b": [
+    "CC1CO1 \u2192 a non-aromatic ring structure"
+  ],
+  "interaction_interpretation": "The model highlights aromatic regions in both 3,5,5-trimethylcyclohex-2-en-1-one and 2-methyloxirane, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

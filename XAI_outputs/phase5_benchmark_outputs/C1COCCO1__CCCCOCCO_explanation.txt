@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: C1COCCO1||CCCCOCCO
+Drug A: 1,4-dioxane
+Drug B: 2-butoxyethanol
+
+Observed pLD50: 1.3838
+Predicted pLD50: 1.3540
+Toxicity level: very mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 3); ring C sp3 degree 2 2 H (atom 1)
+
+Drug B important atoms:
+- C sp3 degree 2 2 H (atom 2); C sp3 degree 2 2 H (atom 3); C sp3 degree 2 2 H (atom 1)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring carbon, which may contribute to structural rigidity. Atom 1 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 2 is a C atom that may contribute to the local chemical environment. Atom 3 is a C atom that may contribute to the local chemical environment. Atom 1 is a C atom that may contribute to the local chemical environment.
+
+3. Key structural fragments
+
+Drug A:
+- C1COCCO1 → a non-aromatic ring structure
+
+Drug B:
+- CCCCOCC → an oxygen-rich polar chain or functional group
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

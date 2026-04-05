@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC(O)COC(C)COC(C)C||OCCNCCO
+Drug A: 1-(1-propan-2-yloxypropan-2-yloxy)propan-2-ol
+Drug B: 2-(2-hydroxyethylamino)ethanol
+
+Observed pLD50: 1.8865
+Predicted pLD50: 1.7908
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- C sp3 degree 2 2 H (atom 3); C sp3 degree 2 2 H (atom 7); O sp3 degree 2 (atom 8)
+
+Drug B important atoms:
+- N sp3 degree 2 1 H (atom 3); C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 2)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 3 is a C atom that may contribute to the local chemical environment. Atom 7 is a C atom that may contribute to the local chemical environment. Atom 8 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.
+
+Drug B:
+- Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is a C atom that may contribute to the local chemical environment.
+
+3. Key structural fragments
+
+Drug A:
+- CC(O)COC(C)COC(C)C → an oxygen-rich polar chain or functional group
+
+Drug B:
+- CCNCC → an amine-like or nitrogen-containing region
+
+4. Interaction-level interpretation
+
+The model highlights an oxygen-rich polar chain or functional group in 1-(1-propan-2-yloxypropan-2-yloxy)propan-2-ol and an amine-like or nitrogen-containing region in 2-(2-hydroxyethylamino)ethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

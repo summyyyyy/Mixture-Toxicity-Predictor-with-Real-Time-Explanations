@@ -1,0 +1,48 @@
+{
+  "idx": 36,
+  "pairkey": "C1COCCO1||CC1CO1",
+  "source": "Smyth",
+  "drug_a_label": "1,4-dioxane",
+  "drug_b_label": "2-methyloxirane",
+  "smiles_a": "C1COCCO1",
+  "smiles_b": "CC1CO1",
+  "true_pLD50": 1.6152150630950928,
+  "pred_pLD50": 1.5295830340228713,
+  "absolute_error": 0.08563202907222145,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "ring C sp3 degree 2 2 H (atom 4)",
+    "ring C sp3 degree 2 2 H (atom 3)",
+    "ring C sp3 degree 2 2 H (atom 1)"
+  ],
+  "top_atoms_b": [
+    "ring C sp3 degree 2 2 H (atom 2)",
+    "ring C sp3 degree 3 1 H (atom 1)",
+    "ring O sp3 degree 2 (atom 3)"
+  ],
+  "atom_reason_a": [
+    "Atom 4 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 1 is a ring carbon, which may contribute to structural rigidity.",
+    "Atom 3 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure."
+  ],
+  "fragment_labels_a": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_labels_b": [
+    "a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_a": [
+    "C1COCCO1 \u2192 a non-aromatic ring structure"
+  ],
+  "fragment_descriptions_b": [
+    "CC1CO1 \u2192 a non-aromatic ring structure"
+  ],
+  "interaction_interpretation": "The model highlights aromatic regions in both 1,4-dioxane and 2-methyloxirane, suggesting potential \u03c0\u2013\u03c0 interactions or hydrophobic stacking effects that may influence toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

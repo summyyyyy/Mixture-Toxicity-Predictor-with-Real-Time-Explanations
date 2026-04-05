@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CC1CO1||CCO
+Drug A: 2-methyloxirane
+Drug B: ethanol
+
+Observed pLD50: 1.2203
+Predicted pLD50: 0.9821
+Toxicity level: very mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- ring C sp3 degree 3 1 H (atom 1); ring C sp3 degree 2 2 H (atom 2); ring O sp3 degree 2 (atom 3)
+
+Drug B important atoms:
+- C sp3 degree 2 2 H (atom 1); C sp3 degree 1 3 H (atom 0); O sp3 degree 1 1 H (atom 2)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 1 is a ring carbon, which may contribute to structural rigidity. Atom 2 is a ring carbon, which may contribute to structural rigidity. Atom 3 is a ring oxygen, which may contribute to polarity and oxygen-containing cyclic structure.
+
+Drug B:
+- Atom 1 is a C atom that may contribute to the local chemical environment. Atom 0 is a C atom that may contribute to the local chemical environment. Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.
+
+3. Key structural fragments
+
+Drug A:
+- CC1CO1 → a non-aromatic ring structure
+
+Drug B:
+- CCO → an oxygen-rich polar chain or functional group
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+5. Prediction reliability
+
+The prediction is reasonably close to the observed value.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: CNC.O=C(O)COc1ccc(Cl)cc1Cl||Cc1nn(-c2cc(NS(C)(=O)=O)c(Cl)cc2Cl)c(=O)n1C(F)F
+Drug A: 2-(2,4-dichlorophenoxy)acetic acid;N-methylmethanamine
+Drug B: N-[2,4-dichloro-5-[4-(difluoromethyl)-3-methyl-5-oxo-1,2,4-triazol-1-yl]phenyl]methanesulfonamide
+
+Observed pLD50: 2.7196
+Predicted pLD50: 2.8325
+Toxicity level: highly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- aromatic C sp2 degree 2 1 H (atom 13); aromatic C sp2 degree 3 (atom 14); aromatic C sp2 degree 3 (atom 8)
+
+Drug B important atoms:
+- aromatic N sp2 degree 3 (atom 19); aromatic N sp2 degree 3 (atom 3); S sp3 degree 4 (atom 8)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 13 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 14 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+Drug B:
+- Atom 19 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 3 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 8 is a sulfur atom, which may contribute to reactivity and electronic effects.
+
+3. Key structural fragments
+
+Drug A:
+- OCCOc1ccc(Cl)cc1Cl → a halogenated aromatic region (hydrophobic and bioactive)
+
+Drug B:
+- c-n(n)cn → a nitrogen-containing aromatic ring (heterocycle, often bioactive); cNS → a nitrogen-containing aromatic ring (heterocycle, often bioactive)
+
+4. Interaction-level interpretation
+
+The model highlights aromatic regions in both 2-(2,4-dichlorophenoxy)acetic acid;N-methylmethanamine and N-[2,4-dichloro-5-[4-(difluoromethyl)-3-methyl-5-oxo-1,2,4-triazol-1-yl]phenyl]methanesulfonamide, suggesting potential π–π interactions or hydrophobic stacking effects that may influence toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

@@ -1,0 +1,48 @@
+{
+  "idx": 363,
+  "pairkey": "ClC(Cl)=C(Cl)Cl||Nc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "1,1,2,2-tetrachloroethene",
+  "drug_b_label": "aniline",
+  "smiles_a": "ClC(Cl)=C(Cl)Cl",
+  "smiles_b": "Nc1ccccc1",
+  "true_pLD50": 1.8393000364303589,
+  "pred_pLD50": 1.7943435369766387,
+  "absolute_error": 0.044956499453720156,
+  "toxicity_level": "mildly toxic",
+  "top_atoms_a": [
+    "Cl sp3 degree 1 (atom 5)",
+    "Cl sp3 degree 1 (atom 4)",
+    "Cl sp3 degree 1 (atom 2)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 2 1 H (atom 6)",
+    "aromatic C sp2 degree 2 1 H (atom 2)",
+    "aromatic C sp2 degree 2 1 H (atom 5)"
+  ],
+  "atom_reason_a": [
+    "Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",
+    "Atom 4 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.",
+    "Atom 2 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity."
+  ],
+  "atom_reason_b": [
+    "Atom 6 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 2 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 5 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "a halogen-substituted region (affects lipophilicity and toxicity)"
+  ],
+  "fragment_labels_b": [
+    "a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "fragment_descriptions_a": [
+    "ClC(Cl)=C(Cl)Cl \u2192 a halogen-substituted region (affects lipophilicity and toxicity)"
+  ],
+  "fragment_descriptions_b": [
+    "Nc1ccccc1 \u2192 a nitrogen-containing aromatic ring (heterocycle, often bioactive)"
+  ],
+  "interaction_interpretation": "The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

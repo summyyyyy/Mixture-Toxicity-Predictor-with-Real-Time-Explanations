@@ -6,24 +6,24 @@ Drug A: 1,1,2,2-tetrachloroethene
 Drug B: 2-(2-hydroxyethylamino)ethanol
 
 Observed pLD50: 1.6932
-Predicted pLD50: 1.9311
+Predicted pLD50: 1.8293
 Toxicity level: mildly toxic
 
 1. Model focus
 
 Drug A important atoms:
-- C sp2 degree 3 (atom 1); C sp2 degree 3 (atom 3); Cl sp3 degree 1 (atom 5)
+- C sp2 degree 3 (atom 3); C sp2 degree 3 (atom 1); Cl sp3 degree 1 (atom 5)
 
 Drug B important atoms:
-- N sp3 degree 2 1 H (atom 3); C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 2)
+- C sp3 degree 2 2 H (atom 4); C sp3 degree 2 2 H (atom 2); N sp3 degree 2 1 H (atom 3)
 
 2. Chemical meaning of important atoms
 
 Drug A:
-- Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.
+- Atom 3 is a highly connected C atom, which may lie in a structurally important region. Atom 1 is a highly connected C atom, which may lie in a structurally important region. Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity.
 
 Drug B:
-- Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region. Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is a C atom that may contribute to the local chemical environment.
+- Atom 4 is a C atom that may contribute to the local chemical environment. Atom 2 is a C atom that may contribute to the local chemical environment. Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.
 
 3. Key structural fragments
 
@@ -31,7 +31,7 @@ Drug A:
 - ClC(Cl)=C(Cl)Cl → a halogen-substituted region (affects lipophilicity and toxicity)
 
 Drug B:
-- N → an amine-like or nitrogen-containing region
+- CCNCC → an amine-like or nitrogen-containing region
 
 4. Interaction-level interpretation
 
@@ -39,6 +39,6 @@ The presence of halogenated regions suggests that lipophilicity and electronic e
 
 5. Prediction reliability
 
-The prediction is reasonably close to the observed value.
+The prediction closely matches the observed toxicity.
 
 NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

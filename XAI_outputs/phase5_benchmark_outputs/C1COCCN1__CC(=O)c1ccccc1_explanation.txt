@@ -1,0 +1,44 @@
+
+--- Chemical Interpretation ---
+
+PairKey: C1COCCN1||CC(=O)c1ccccc1
+Drug A: morpholine
+Drug B: 1-phenylethanone
+
+Observed pLD50: 1.7202
+Predicted pLD50: 1.7432
+Toxicity level: mildly toxic
+
+1. Model focus
+
+Drug A important atoms:
+- ring N sp3 degree 2 1 H (atom 5); ring C sp3 degree 2 2 H (atom 4); ring C sp3 degree 2 2 H (atom 0)
+
+Drug B important atoms:
+- aromatic C sp2 degree 3 (atom 3); aromatic C sp2 degree 2 1 H (atom 8); aromatic C sp2 degree 2 1 H (atom 4)
+
+2. Chemical meaning of important atoms
+
+Drug A:
+- Atom 5 is a ring nitrogen, which may influence polarity, basicity, or binding behavior. Atom 4 is a ring carbon, which may contribute to structural rigidity. Atom 0 is a ring carbon, which may contribute to structural rigidity.
+
+Drug B:
+- Atom 3 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 8 is an aromatic carbon, which may belong to a hydrophobic ring system. Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.
+
+3. Key structural fragments
+
+Drug A:
+- C1COCCN1 → a nitrogen-containing heterocycle
+
+Drug B:
+- CCc1ccccc1 → an aromatic hydrophobic ring
+
+4. Interaction-level interpretation
+
+The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.
+
+5. Prediction reliability
+
+The prediction closely matches the observed toxicity.
+
+NOTE: This explanation reflects how the model makes decisions. It does not represent a confirmed biological mechanism.

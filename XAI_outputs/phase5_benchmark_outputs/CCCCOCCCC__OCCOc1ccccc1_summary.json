@@ -1,0 +1,48 @@
+{
+  "idx": 294,
+  "pairkey": "CCCCOCCCC||OCCOc1ccccc1",
+  "source": "Smyth",
+  "drug_a_label": "1-butoxybutane",
+  "drug_b_label": "2-phenoxyethanol",
+  "smiles_a": "CCCCOCCCC",
+  "smiles_b": "OCCOc1ccccc1",
+  "true_pLD50": 1.460113763809204,
+  "pred_pLD50": 1.3420238243938294,
+  "absolute_error": 0.11808993941537471,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 6)",
+    "C sp3 degree 2 2 H (atom 2)",
+    "C sp3 degree 2 2 H (atom 5)"
+  ],
+  "top_atoms_b": [
+    "aromatic C sp2 degree 3 (atom 4)",
+    "O sp2 degree 2 (atom 3)",
+    "aromatic C sp2 degree 2 1 H (atom 9)"
+  ],
+  "atom_reason_a": [
+    "Atom 6 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 5 is a C atom that may contribute to the local chemical environment."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is an aromatic carbon, which may belong to a hydrophobic ring system.",
+    "Atom 3 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment.",
+    "Atom 9 is an aromatic carbon, which may belong to a hydrophobic ring system."
+  ],
+  "fragment_labels_a": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_labels_b": [
+    "an aromatic hydrophobic ring"
+  ],
+  "fragment_descriptions_a": [
+    "CCCCOCCCC \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_b": [
+    "CCOc1ccccc1 \u2192 an aromatic hydrophobic ring"
+  ],
+  "interaction_interpretation": "The model highlights an aromatic region in one molecule and a polar or heteroatom-rich region in the other, suggesting that interactions between hydrophobic and polar functionalities may contribute to the observed toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

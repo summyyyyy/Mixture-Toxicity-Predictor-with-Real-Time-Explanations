@@ -1,0 +1,48 @@
+{
+  "idx": 329,
+  "pairkey": "CCO||OCCOCCOCCOCCOCCOCCOCCOCCO",
+  "source": "Smyth",
+  "drug_a_label": "ethanol",
+  "drug_b_label": "2-[2-[2-[2-[2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethanol",
+  "smiles_a": "CCO",
+  "smiles_b": "OCCOCCOCCOCCOCCOCCOCCOCCO",
+  "true_pLD50": 0.7346047759056091,
+  "pred_pLD50": 0.7371794030754015,
+  "absolute_error": 0.0025746271697923984,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 2 2 H (atom 1)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "O sp3 degree 1 1 H (atom 2)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 2 2 H (atom 4)",
+    "C sp3 degree 2 2 H (atom 20)",
+    "C sp3 degree 2 2 H (atom 5)"
+  ],
+  "atom_reason_a": [
+    "Atom 1 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 2 is an oxygen atom, which may indicate a polar functional group such as an ether, alcohol, or carbonyl-related environment."
+  ],
+  "atom_reason_b": [
+    "Atom 4 is a C atom that may contribute to the local chemical environment.",
+    "Atom 20 is a C atom that may contribute to the local chemical environment.",
+    "Atom 5 is a C atom that may contribute to the local chemical environment."
+  ],
+  "fragment_labels_a": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_labels_b": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_a": [
+    "CCO \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_b": [
+    "CCOCCOCCOCCOCCOCCOCCOCC \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "interaction_interpretation": "Both molecules contain polar functional groups, suggesting that intermolecular interactions such as hydrogen bonding or solubility-related effects may influence toxicity.",
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
+}

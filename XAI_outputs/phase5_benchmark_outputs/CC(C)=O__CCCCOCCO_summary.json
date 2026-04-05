@@ -1,0 +1,50 @@
+{
+  "idx": 170,
+  "pairkey": "CC(C)=O||CCCCOCCO",
+  "source": "Smyth",
+  "drug_a_label": "propan-2-one",
+  "drug_b_label": "2-butoxyethanol",
+  "smiles_a": "CC(C)=O",
+  "smiles_b": "CCCCOCCO",
+  "true_pLD50": 1.4587634801864624,
+  "pred_pLD50": 1.0187578420689833,
+  "absolute_error": 0.44000563811747906,
+  "toxicity_level": "very mildly toxic",
+  "top_atoms_a": [
+    "C sp3 degree 1 3 H (atom 2)",
+    "C sp3 degree 1 3 H (atom 0)",
+    "C sp2 degree 3 (atom 1)"
+  ],
+  "top_atoms_b": [
+    "C sp3 degree 2 2 H (atom 2)",
+    "C sp3 degree 2 2 H (atom 3)",
+    "C sp3 degree 2 2 H (atom 1)"
+  ],
+  "atom_reason_a": [
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 0 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region."
+  ],
+  "atom_reason_b": [
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is a C atom that may contribute to the local chemical environment.",
+    "Atom 1 is a C atom that may contribute to the local chemical environment."
+  ],
+  "fragment_labels_a": [
+    "an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_labels_b": [
+    "a general structural fragment",
+    "a general structural fragment"
+  ],
+  "fragment_descriptions_a": [
+    "CC(C)=O \u2192 an oxygen-rich polar chain or functional group"
+  ],
+  "fragment_descriptions_b": [
+    "CCCC \u2192 a general structural fragment",
+    "CC \u2192 a general structural fragment"
+  ],
+  "interaction_interpretation": "The model highlights an oxygen-rich polar chain or functional group in propan-2-one and a general structural fragment in 2-butoxyethanol, suggesting that their interaction may influence toxicity through combined structural and chemical effects.",
+  "prediction_reliability": "The prediction differs from the observed value and should be interpreted cautiously.",
+  "xai_method": "IntegratedGradients"
+}

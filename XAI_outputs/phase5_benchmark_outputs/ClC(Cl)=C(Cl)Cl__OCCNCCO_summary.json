@@ -7,28 +7,28 @@
   "smiles_a": "ClC(Cl)=C(Cl)Cl",
   "smiles_b": "OCCNCCO",
   "true_pLD50": 1.693162202835083,
-  "pred_pLD50": 1.9311255246623023,
-  "absolute_error": 0.23796332182721924,
+  "pred_pLD50": 1.8293292826901448,
+  "absolute_error": 0.13616707985506182,
   "toxicity_level": "mildly toxic",
   "top_atoms_a": [
-    "C sp2 degree 3 (atom 1)",
     "C sp2 degree 3 (atom 3)",
+    "C sp2 degree 3 (atom 1)",
     "Cl sp3 degree 1 (atom 5)"
   ],
   "top_atoms_b": [
-    "N sp3 degree 2 1 H (atom 3)",
     "C sp3 degree 2 2 H (atom 4)",
-    "C sp3 degree 2 2 H (atom 2)"
+    "C sp3 degree 2 2 H (atom 2)",
+    "N sp3 degree 2 1 H (atom 3)"
   ],
   "atom_reason_a": [
-    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
     "Atom 3 is a highly connected C atom, which may lie in a structurally important region.",
+    "Atom 1 is a highly connected C atom, which may lie in a structurally important region.",
     "Atom 5 is a halogen atom (Cl), which may increase lipophilicity and modify biological activity."
   ],
   "atom_reason_b": [
-    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region.",
     "Atom 4 is a C atom that may contribute to the local chemical environment.",
-    "Atom 2 is a C atom that may contribute to the local chemical environment."
+    "Atom 2 is a C atom that may contribute to the local chemical environment.",
+    "Atom 3 is a nitrogen atom, which may indicate an amine-like or heteroatom-rich reactive region."
   ],
   "fragment_labels_a": [
     "a halogen-substituted region (affects lipophilicity and toxicity)"
@@ -40,9 +40,9 @@
     "ClC(Cl)=C(Cl)Cl \u2192 a halogen-substituted region (affects lipophilicity and toxicity)"
   ],
   "fragment_descriptions_b": [
-    "N \u2192 an amine-like or nitrogen-containing region"
+    "CCNCC \u2192 an amine-like or nitrogen-containing region"
   ],
   "interaction_interpretation": "The presence of halogenated regions suggests that lipophilicity and electronic effects may play a role in modulating toxicity when these two compounds interact.",
-  "prediction_reliability": "The prediction is reasonably close to the observed value.",
-  "xai_method": "FeatureAblation"
+  "prediction_reliability": "The prediction closely matches the observed toxicity.",
+  "xai_method": "IntegratedGradients"
 }
